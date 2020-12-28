@@ -1,0 +1,114 @@
+$newline always
+<div #homepage .content-text>
+  <h1>Le Littré (XMLittré v2)
+
+  <h2>Dictionnaire de la langue française, par É. Littré
+
+  <p>
+    Texte intégral.
+
+  <p>
+    Le seul dictionnaire qui 
+    <a href=@{DefinitionR "comprendre"} title="Au sens premier, bien sûr&#x202F;!">comprenne 
+    « Bonjour,
+    <a href=@{DefinitionR "philippine"}>Philippine#
+    . »
+
+
+  <h2>Avertissement au lecteur
+
+  <p>
+    Il s'agit d'un dictionnaire ancien, paru à la fin du XIX#
+    <sup>e
+    siècle.
+    Ses vedettes comme ses définitions s'appliquent à une langue française qui a beaucoup évolué en près de 150 ans.
+    Certains passages portent l'empreinte de cette époque
+    et doivent se lire dans ce contexte historique.
+    Le
+    <a href=@{DefinitionR "sport"}>sport
+    était alors un néologisme, et le
+    <a href=@{DefinitionR "cafard"}>cafard
+    semblait religieux&#x202F;;
+    la science collectionnait les
+    <a rel="nofollow" href="@{SearchFullTextR}?_hasdata=&f2=planete+telescopique">planètes téléscopiques#
+    , doutait de l'avenir du tout nouveau
+    <a href=@{DefinitionR "téléphone"}>téléphone
+    et inventait le délicat
+    <a href=@{DefinitionR "stasimètre"}>stasimètre.
+    Le mot
+    <a href=@{DefinitionR "race"}>race
+    n'avait
+    <a href=@{DefinitionR "impaludation"} title="De l'action des miasmes morbifiques sur l'Homme…">pas le même sens
+    qu'aujourd'hui.
+    En ce temps déjà lointain on
+    <a href=@{DefinitionR "emberlucoquer"}>s'emberlucoquait#
+    ,
+    <a href=@{DefinitionR "barguigner"}>barguignait#
+    , faisait la
+    <a href=@{DefinitionR "bobe"}>bobe#
+    ,
+    <a href=@{DefinitionR "guéder"}>se guédait#
+    ,
+    <a href=@{DefinitionR "blézimarder"}>blézimardait#
+    ,
+    <a href=@{DefinitionR "morguer"}>morguait#
+    , pour enfin
+    <a href=@{DefinitionR "acagnarder"}>s'acagnarder
+    avec bonheur.
+
+  <p>
+    À la différence d'ouvrages purement explicatifs, ce dictionnaire est très littéraire,
+    truffé de citations de toutes sortes et de toutes époques,
+    et agrémenté de
+    <a href=@{DefinitionR "éviter"}#var5 title="Remarque sur l'utilisation abusive du mot « éviter »">conseils d'utilisation#
+    , ou de
+    <a href=@{DefinitionR "mânes"} title="É. Littré remarque, en passant, que Bossuet se trompe">réprimandes
+    aux auteurs célèbres qui prennent des
+    <a href=@{DefinitionR "liberté"}#var16 title="prendre des libertés…">libertés
+    avec la langue française.
+    Le rapport d'Émile Littré aux mots est souvent 
+    <a href=@{DefinitionR "garce"} title="« garce » à l'étymologie">très affectueux#
+    , allant jusqu'à
+    <a href="@{AnnexesR PrefaceR}#lierre">défendre des barbarismes
+    pour que la poésie ancienne n'en soit pas gâtée.
+
+  <p>
+    Le Littré peut se feuilleter avec délices pendant des journées entières, car
+  <blockquote>
+    <div>
+      Qui ce qu'il aime plus regarde,
+      <br>
+      Plus alume son cuer et l'arde.
+    <small>
+      <cite>
+        Le roman de la Rose
+      (XIII#
+      <sup>ème
+      siècle)
+
+  <h2>Nouveautés
+
+  <p>
+    Avril 2018 : une page consacrée à l'#
+    <a href=@{EtymologieR}>étymologie
+    place les connaissances de l'époque dans le contexte moderne,
+    et trace à grand traits l'histoire de la langue française.
+
+  <p>
+    Octobre 2017 : les mots grecs, perdus lors de la numérisation, ont été réintroduits.
+    La saisie de ces dix-huit mille mots de grec polytonique avait débuté en avril 2014.
+    Les étymologies de termes comme
+    <a href=@{DefinitionR "théorème"}>théorème#
+    , #
+    <a href=@{DefinitionR "chimie"}>chimie
+    ou #
+    <a href=@{DefinitionR "académie"}>académie
+    ont retrouvé leur saveur.
+
+<p>
+  Plus d'informations, et un accès aux données brutes, se trouvent dans la
+  <a href=@{FaqR}>Foire Aux Questions#
+  .
+
+<address>
+  François Gannaz

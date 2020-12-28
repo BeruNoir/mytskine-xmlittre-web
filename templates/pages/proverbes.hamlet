@@ -1,0 +1,271 @@
+$newline text
+<div #proverbes .content-text>
+  <h1>Proverbes
+
+  <p>
+    Voici une sélection personnelle de proverbes lus dans le Dictionnaire Littré.
+
+  <section>
+      <h2>Classiques
+      <p>
+        Une sélection de quelques proverbes classiques dont les dérivés sont encore en usage.
+
+      <blockquote>Il ne se mouche pas du coude, on le voit bien sur sa manche.
+
+      <blockquote>Il faudrait lui mettre du plomb dans la manche.
+        <small>Comment est-on passé de la manche à la cervelle ?
+
+      <blockquote>On a tant crié Noël qu'à la fin il est venu.
+
+      <blockquote>Quand les ânes parleront latin.
+        <small>Parler latin n'est plus le symbole du savant, donc on préfère aujourd'hui parler des dents des poules.
+
+      <blockquote>C'est jus vert ou vert jus.
+        <small>C'est blanc bonnet et bonnet blanc.
+
+
+
+  <section>
+      <h2>Équivoques
+
+      <blockquote>Au cerf la bière, au sanglier le barbier.
+        <small>Non, le cerf ne #
+          <a href=@{DefinitionR "biberon"}>biberonne
+          \ pas et le sanglier n'est pas souvent anthropophage&#x202f;! #
+          En français moderne, ce proverbe serait :
+          Le cerf envoie au cercueil, et le sanglier chez le chirurgien.
+
+      <blockquote>Serre le poing à ta poule, et elle te serrera le cul.
+        <small>Rien de scabreux ici : #
+          il faut déserrer le poing qui tient le grain car une
+          <a href=@{DefinitionR "poule"}>poule
+          \ mal nourrie pondra peu.
+
+      <blockquote>Point d'argent, point de Suisse&#x202f;!
+        <small>Aucun rapport avec l'évasion fiscale&#x202f;! #
+          La
+          <a href=@{DefinitionR "suisse"}>Suisse
+          \ fournissait nombre de mercenaires réputés, comme soldats ou comme domestiques.
+
+
+
+  <section>
+      <h2>Méchants
+
+      <blockquote>La caque sent toujours le hareng.
+        <small>L'explication qu'en donne Le Littré à #
+          <a href=@{DefinitionR "caque"}>caque
+          \ est cruelle :
+          « se dit de ceux qui passent d'une position inférieure à une position plus élevée. »
+
+      <blockquote>Il est savant jusqu'aux dents, il a mangé son bréviaire.
+
+  <section>
+      <h3>Professionnels
+
+      <blockquote>À batelier et voiturier, ne s'y faut jamais fier.
+        <small>
+          Avant même que le métier n'existe, les garagistes étaient déjà malhonnêtes&#x202f;!
+
+      <blockquote>Les jeunes médecins font les cimetières bossus.
+
+      <blockquote>Il se débat comme un procureur qui se meurt.
+        <small>
+          … et qui sent déjà les griffes du diable sur lui.
+
+
+
+  <section>
+      <h2>Poétiques
+
+      <blockquote>Le bois tortu fait le feu droit.
+
+      <blockquote>L'occasion est chauve.
+        <small>Au contraire d'Absalon, l'occasion est difficile à saisir, on ne peut l'empoigner par sa chevelure.
+
+      <blockquote>L'œil du maître engraisse le cheval.
+
+      <blockquote>Il faut mourir, petit cochon, il n'y a plus d'orge.
+
+      Et en hommage à
+      <em>Cría cuervos
+      <blockquote>Nourris un corbeau, il te crèvera l'œil.
+
+
+
+  <section>
+      <h2>Désuets
+      <p>
+        Des proverbes à n'employer qu'au second degré, en bonne compagnie, car les normes ont changé.
+
+      <blockquote>Un verre de vin avise bien un homme.
+
+      <blockquote>Le vin est le lait des vieillards.
+        <small>
+          Comprendre : le vin est le fortifiant des vieillards.
+
+      <blockquote>Épands ton fumier près, et marie ta fille loin.
+
+      <blockquote>Fagot cherche bourrée.
+
+      <blockquote>Il vaut mieux tendre la main que le cou.
+        <small>
+          Mieux veut demander assistance, c'est-à-dire tendre la main pour l'aumône,
+          que de voler, et devoir alors tendre le cou sur le billot, le gibet ou la guillotine.
+
+      <blockquote>Cet enfant a trop d'esprit, il ne vivra pas.
+        <small>
+          Proverbe peu recommandé en présence des parents du bambin.
+          <br>
+          « Se dit sérieusement pour exprimer la crainte qu'inspire la santé d'un enfant trop précoce,
+          ou, par moquerie, pour exprimer qu'un enfant est sans esprit. »
+
+
+  <section>
+      <h2>Religieux
+      <p>
+        Quand on lit la pléthore de proverbes religieux de la fin du XIXème siècle,
+        on mesure à quel point l'emprise du christianisme sur la société française s'est aujourd'hui affaiblie.
+
+      <blockquote>Quand il pleut sur le curé, il dégoutte sur le vicaire.
+
+      <blockquote>Il ne faut qu'un mauvais moine pour dérégler tout le couvent.
+
+      <blockquote>Gros-Jean remontre à son curé.
+
+      <blockquote>Le curé ne chante pas mieux que son vicaire.
+
+      <blockquote>Quand le diable fut vieux, il se fit ermite.
+
+
+  <section>
+      <h2>Sexistes
+
+      <blockquote>La poule ne doit pas chanter avant le coq.
+
+      <blockquote>Les effets sont les mâles, et les paroles sont les femelles.
+
+      <blockquote>Jamais coup de pied de jument ne fit mal à cheval.
+
+      <blockquote>Le royaume de France ne peut tomber de lance en quenouille.
+
+
+  <section>
+      <h2>Métaphoriques
+
+      <blockquote>Il vaut mieux laisser son enfant morveux que de lui arracher le nez.
+
+      <blockquote>Il faut tondre ses brebis et non pas les écorcher
+
+      <blockquote>Faire l'âne pour avoir du bran.
+        <small>
+          <a href=@{DefinitionR "bran"}>bran
+
+      <blockquote>Qui se couche avec les chiens se lève avec des puces.
+
+      <blockquote>Qui a peur des feuilles n'aille au bois.
+
+      <blockquote>Il ne faut pas mettre le doigt entre le bois et l'écorce.
+
+      <blockquote>Il a du crédit comme un chien à la boucherie.
+
+      <blockquote>À laver la tête d'un âne on perd sa lessive.
+
+
+  <section>
+      <h2>Cyniques
+
+      <blockquote>Morte la bête, mort le venin.
+
+      <blockquote>Plus de morts, moins d'ennemis.
+
+
+  <section>
+      <h2>Énigmatiques
+
+      <blockquote>Ris, Jean, on te frit des œufs.
+        <small>« Se dit pour se moquer d'un niais qui rit sans sujet. »
+
+      <blockquote>À chaque porc vient la Saint-Martin.
+        <small>La Saint-Martin est le début de la période d'abattage des porcs.
+
+      <blockquote>Bonhomme, garde ta vache.
+        <small>« Se dit pour avertir quelqu'un de prendre garde qu'on ne le trompe. »
+
+      <blockquote>Passez-moi la rhubarbe et je vous passerai le séné.
+       <small>
+         Le proverbe est à #
+         <a href=@{DefinitionR "rhubarbe"}>rhubarbe
+         \ qui renvoie à #
+         <a href=@{DefinitionR "séné"}>séné
+         \ qui renvoie à #
+         <a href=@{DefinitionR "rhubarbe"}>rhubarbe
+         . En fait, l'explication est cachée dans #
+         <a href=@{DefinitionR "passer"}#var51>passer, sens 51
+         .
+
+  <section>
+      <h2>Nostalgiques
+
+      <blockquote>Bonjour lunettes, adieu fillettes&#x202f;!
+
+$if False
+      Il n'y a point de héros pour son valet de chambre.
+      Qui m'aime aime mon chien
+      On ne peut mâcher amer et cracher doux
+      Il ne fait pas bon aller à sa porte sans bâton
+      Bœuf saignant, mouton bêlant
+      Brebis qui bêle perd sa goulée
+      Il sait de quel côté son pain est beurré
+      Quand il n'y a pas de bois mort, on en fait
+      Dans les petites boîtes sont les bons onguents
+      À bon vin point d'enseigne
+      Jamais lard ni cuit ni cru n'a fait le cimetière bossu
+      Fagot cherche bourrée
+      Brûler la chandelle par les deux bouts
+      Brebis comptées le loup les mange
+      C'est un bon enfant, il ne mange pas la chandelle
+      Qui chapon mange, chapon lui vient
+      Il n'y a si bon charretier qui ne verse
+      On ne saurait retenir le chat quand il a goûté de la crème
+      La peau est plus proche que la chemise
+      Des femmes et des chevaux, il n'en est point sans défauts
+      Il serait amoureux d'une chèvre coiffée
+      Ciel pommelé et femme fardée ne sont pas de longue durée
+      Il a de l'esprit, il a couché au cimetière
+      Brebis comptées, le loup les mange
+      Quand la cornemuse est pleine, on en chante mieux
+      À mal enfourner, on fait les pains cornus
+      Croyez cela et buvez de l'eau
+      Un bon Picard ne se dédit pas, il se ravise
+      Il n'est dévotion que de jeune prêtre
+      Il n'est pas si diable qu'il est noir
+      Quand il dort, le diable le berce
+      La voix du peuple est la voix de Dieu
+      S'il est riche ou s'il est si riche, qu'il dîne deux fois
+      Il vaut mieux être marteau qu'enclume
+      Le diable bat sa femme et marie sa fille
+      L'œil du fermier vaut du fumier
+      Amitié de gendre, soleil d'hiver
+      Il n'est si belle rose qui ne devienne gratte-cul
+      Il n'y a pas de grenouille qui ne trouve son crapaud
+      La caque sent toujours le hareng
+      Coup de langue est souvent pis que coup de lance
+      Il veut apprendre à sa mère à faire des enfants
+      C'est le ventre de ma mère, je n'y retourne plus
+      Il faut se défier de son premier mouvement
+      Le premier mouvement est toujours le meilleur
+      Un grand nez ne gâta jamais beau visage
+      Oignez vilain, il vous poindra ; poignez vilain, il vous oindra
+      Péché caché est à demi pardonné
+      Fille qui chante et ville qui parlemente sont à demi rendues
+      La politesse est au fond du saladier
+      Il viendra un temps où les chiens auront besoin de leur queue
+      Le poisson commence toujours à sentir par la tête
+      Sa tête donne bien du mal à ses pieds
+      On tirerait plus tôt un pet d'un âne mort qu'un sou de sa bourse
+      À petit trou, petite cheville
+      Il est bon à vendre vache foireuse
+      Changement d'herbe réjouit les veaux
+      Qui a honte de manger, a honte de vivre
+

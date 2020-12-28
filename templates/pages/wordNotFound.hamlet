@@ -1,0 +1,84 @@
+$newline always
+<h1>Mot « #{terme} » inconnu du Littré
+
+<p>
+  Ce mot ne figure pas dans l'index du Littré. 
+  Il n'est pas non plus une forme fléchie connue d'un seul mot de l'index.
+
+$if null $mots
+    <p>
+      Ce mot ne figure pas non plus dans formes fléchies du 
+      <a href=http://www.labri.fr/perso/clement/lefff>Leff#
+      , donc
+      <strong>
+          il y a peu de chance qu'il se trouve dans un dictionnaire généraliste.
+$else
+    <p>
+      Ce mot figure toutefois parmi les formes fléchies connues du
+      <a href="http://www.labri.fr/perso/clement/lefff">Leff#
+      , donc
+      <strong>
+          vous pourrez sans doute le trouver dans un dictionnaire plus moderne.
+
+    <h2>
+      Formes fléchies identifiées pour « #{terme} »
+    <table .table .table-striped>
+      <thead>
+        <tr>
+          <th>Mot
+          <th>Nature
+          <th>Flexion
+          <th>Racine
+          <th>Fréquence
+      <tbody>
+        $forall Entity _ mot <-mots
+            <tr :(hasLittreClass mot):in-littre>
+              <td>
+                $maybe _ <- motDefinitionId mot
+                  <a href=@{DefinitionR (motRacine mot)}>#{motMot mot}
+                $nothing
+                  #{motMot mot}
+              <td>#{motNature mot}
+              <td>#{motFlexion mot}
+              <td>#{motRacine mot}
+              <td>#{motFrequence mot}
+
+    <p>
+      La fréquence est basée sur le corpus 
+      <a href=http://www.frantext.fr/>Frantext
+      qui regroupe 250 000 textes littéraires du vingtième siècle.
+      Elle est en fait extraite de la base 
+      <a href=http://www.lexique.org>Lexique
+      puisque l'accès à Frantext est restreint.
+      Plus précisément, la colonne indique le nombre d'occurrences sur un million de mots.
+
+<h2>Recherche dans le texte intégral du Littré
+<div>
+  <form method=get action=@{SearchFullTextR} enctype=#{enctypeDef} .form-horizontal>
+      ^{widgetSearchDefinitions}
+      <div .form-actions>
+          <button .btn type=submit value="">Rechercher dans le corps des définitions
+  <p>
+    Le signe = impose ici une recherche du terme exact.
+
+<h2>Chercher « #{terme} » dans d'autres dictionnaires
+
+<ul>
+  <li>
+    <div>
+        <a href=http://www.cnrtl.fr/definition/>
+           Trésor de la Langue Française informatisé
+        (version simplifiée)&#x202F;:
+        <a href=http://www.cnrtl.fr/definition/#{terme}>
+           #{terme}
+    <p>
+      Le Centre National de Ressources Textuelles et Lexicales contient aussi plusieurs dictionnaires complémentaires du TLFi
+      (dictionnaire de l'Académie, Du Cange, etc).
+      Attention, il ne fonctionne que si Javascript est activé.
+
+    <p>
+      Le même site permet d'accéder à quelques
+      <a href="http://www.cnrtl.fr/dictionnaires/anciens/">dictionnaires anciens#
+      , comme le
+      <em>Thresor de la langue françoyse#
+      , souvent cité par É. Littré.

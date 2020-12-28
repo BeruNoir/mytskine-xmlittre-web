@@ -1,0 +1,14 @@
+<div #voisins>
+  <strong>Auteurs voisins
+  <ul>
+    $forall AuthorLink nom nomLong linkType <- authors
+      $case linkType
+        $of ActiveWord
+          <li .actif>
+            <span .actif>#{nom}
+        $of NextWord
+          <li>
+            <a href=@{AuteurR nom} title=#{nomLong} rel="next">#{nom}
+        $of _
+          <li>
+            <a href=@{AuteurR nom} title=#{nomLong}>#{nom}

@@ -1,0 +1,10 @@
+$maybe msg <- mmsg
+    <div #message>#{msg}
+<input type=checkbox id="sidebar-menu-input">
+<nav #sidebar>
+    <label id=sidebar-menu-handle for="sidebar-menu-input" onclick>
+        Menu<br>&hellip;
+    <div class=sidebar-content>
+        ^{sidebar}
+<section #main-content>
+    ^{widget}

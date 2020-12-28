@@ -1,0 +1,25 @@
+\<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <title>#{pageTitle pc}
+        <meta name="author" content="Émile Littré ; François Gannaz (mise en forme)">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGklEQVQoz2M0TdnKQApgYiARjGoY1TB0NAAAMBABbtZ7KP8AAAAASUVORK5CYII=">
+
+        ^{pageHead pc}
+
+    <body>
+        <header>
+          <a .home href=@{HomeR}>Dictionnaire Littré
+
+        <div id="main" role="main">
+            ^{pageBody pc}
+
+        <footer>
+           Texte dans le domaine public
+           — HTML en
+           <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">CC-BY-SA 3.0
+           (#
+           <a rel="author" href="mailto:&#x66;rancois&#x2E;gannaz&#x40;littre&#46;org">François Gannaz#
+           ) — 
+           <a href=@{FaqR}#source>Code en Affero GPL

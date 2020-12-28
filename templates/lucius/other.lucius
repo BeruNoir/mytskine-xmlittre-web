@@ -1,0 +1,28 @@
+#homepage {
+	a:visited {
+		color: #0000EE;
+	}
+}
+
+#faq {
+	font-family: sans-serif;
+	.sc {
+		font-variant: small-caps;
+	}
+}
+
+section.auteur,
+section.oeuvre {
+	max-width: 120ex;
+}
+
+#oeuvres tbody th {
+	text-align: left;
+}
+
+.content-text#etymologie {
+	em {
+		font-weight: bold;
+		font-style: normal;
+	}
+}

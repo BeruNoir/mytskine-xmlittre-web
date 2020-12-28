@@ -1,0 +1,2132 @@
+$newline always
+<div .annexe #page-livres-cites>
+  <h1 #haut-de-page>Liste des auteurs et des œuvres cités
+
+  <p .intro>
+    Cette liste est telle que présente dans le dictionnaire de Littré.
+    Elle est très incomplète puisque par exemple l'auteur le plus cité, Voltaire, n'y figure pas
+    alors qu'il est référencé près de
+    <a href=@{StatsR}>18&#x202f;000 fois
+    dans l'ouvrage.
+    A l'opposé, Odde de Triors figure dans cette liste alors qu'il n'est cité qu'#
+    <a href=@{DefinitionR "requinquer (se)"} title="se requinquer">une seule fois
+    dans le dictionnaire.
+    Consulter la page de
+    <a href=@{StatsR}>statistiques
+    pour connaître les œuvres et les auteurs les plus abondamment cités.
+
+  <p>
+    Des couleurs ont été ajoutées pour différencier les auteurs des œuvres anonymes.
+    Le fac-simile de cette liste dans l'édition originale est consultable sur
+    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k54066991/f1233.image">Gallica#
+    .
+
+  <div>
+    $forall letter <- letters
+      <a href="#lettre-#{letter}">#{letter}
+
+  <h2 #lettre-A>A
+
+  <ul>
+    <li .oeuvre>
+      <span>ACCORDS (DES)#
+      .
+      <em>Les Bigarrures et touches du Seigneur des Accords avec les apophthegmes du sieur Gaulard, et les escraignes dijonnoises#
+      , Rouen, 1648.
+    <li .oeuvre>
+      <span>ADAM#
+      ,
+      <em>drame anglo-normand du XIIe siècle#
+      , publié par V. Luzarche. Tours, in-8.
+    <li .auteur>
+      <span>ALCRIPPE#
+      .
+      <em>Nouvelle fabrique des excellents traits de vérité#
+      , édit. JANNET, Paris, 1853, in-12.
+    <li .auteur>
+      <span>ALEBRAND#
+      , médecin du XIIIe siècle, mss. français, n° 7929, Bibl. nation.
+    <li .oeuvre>
+      <span>ALECTOR#
+      ,
+      <em>histoire fabuleuse#
+      , par Barptolemy Aneau, Lyon, 1560, in-8, édit. citée par LACURNE.
+    <li .auteur>
+      <span>ALEMBERT (D')#
+      .
+      <em>Œuvres philosophiques, historiques et littéraires#
+      , Paris, an XIII (1805), édit. citée par POUGENS.
+    <li .auteur>
+      <span>ALLUT (PAUL)#
+      .
+      <em>Recherches sur la vie et sur les œuvres du P. Claude-François Menestrier#
+      , Lyon, 1856, in-8.
+    <li .oeuvre>
+      <span>AMADAS ET IDOINE#
+      , roman en vers, manuscrit n° 6987, f° 315, Bibl. nat.
+    <li .auteur>
+      <span>AMYOT#
+      . Œuvres de Plutarque, 25 vol. in-8, Paris, 1783-1805.
+    <li .oeuvre>
+      <span>ANALYSE raisonnée de Bayle#
+      , 4 vol. in-12, Londres, 1755, édit. citée par POUGENS.
+    <li .auteur>
+      <span>ANCELOT#
+      .
+      <em>Louis IX, Fiesque#
+      .
+    <li .oeuvre>
+      <span>ANNUAIRE des cinq départements de la Normandie#
+      , publié par l'Association normande.
+    <li .oeuvre>
+      <span>ANTI-COTTON ou Réfutation de la lettre déclarative du P. Cotton#
+      , la Haye, 1738 (l'édition originale est de 1610).
+    <li .oeuvre>
+      <span>ANTI-MENAGIANA#
+      , Paris, 1693, in-12.
+    <li .auteur>
+      <span>ARGENSON (D')#
+      .
+      <em>Journal et mémoires#
+      , publiés par E. J. B. Rathery, 2 vol. in-8, Paris, Renouard, 1859.
+    <li .auteur>
+      <span>ARNAULT#
+      .
+      <em>Oscar#
+      , tragédie,
+      <em>Marius à Minturnes#
+      ,
+      <em>Blanche#
+      .
+    <li .auteur>
+      <span>ASSELINEAU#
+      .
+      <em>Mélanges
+      tirés d'une petite bibliothèque romantique, Paris, 1866.
+    <li .oeuvre>
+      <span>ASSISES DE JÉRUSALEM#
+      , publiées par Beugnot, Paris, 1841, 2 vol. in-fol.
+    <li .auteur>
+      <span>AUBIGNÉ (D')#
+      .
+      <em>Mémoires de la vie de Théodore Agrippa d'Aubigné, écrits par lui-même#
+      , Amsterdam, 1731, in-12, et aussi édit. LALANNE, Paris, Charpentier, 1854 (c'est la bonne édition, l'autre a été remaniée). —
+      <em>Tragiques#
+      , édit. LALANNE, Jannet, 1857. —
+      <em>Baron de Fæneste#
+      , édit. MÉRIMÉE, Jannet, 1855. —
+      <em>Confession de Sancy#
+      , dans le
+      <em>Journal d'Henri II#
+      , t. II, 1re partie, Cologne, 1720. —
+      <em>Histoire universelle du sieur d'Aubigné#
+      , à Maillé, 2 tomes in-folio, 1616.
+    <li .oeuvre>
+      <span>AUTEURS déguisés sous des noms étrangers, empruntés, supposés, faits à plaisir, chiffrés, renversés, retournés ou changés d'une langue en une autre#
+      , Paris, 1690, in-12.
+    <li .auteur>
+      <span>AVEZAC (D')#
+      .
+      <em>Coup d'œil historique sur la projection des cartes de géographie#
+      , Paris, 1863.
+    <li .auteur>
+      <span>AVRIGNI (D')#
+      .
+      <em>Jeanne d'Arc à Rouen#
+      , tragédie.
+ 
+  <h2 #lettre-A>B
+
+  <ul>
+    <li .oeuvre>
+      <span>BABEUF#
+      .
+      <em>Conspiration pour l'égalité dite Babeuf#
+      , suivie du procès et des pièces justificatives, Bruxelles, 2 vol. in-8.
+    <li .auteur>
+      <span>BACHAUMONT#
+      .
+      <em>Mémoires secrets#
+      , Londres, 1786.
+    <li .auteur>
+      <span>BAHIER#
+      .
+      <em>Le cabinet de Quinault
+      (Revue universelle des arts), publié par Paul Lacroix et M.C. Marsuzi de Aguirre, 9e année, 18e volume, n° 1.
+    <li .auteur>
+      <span>BAILLY#
+      .
+      <em>Histoire de l'astronomie ancienne#
+      , Paris, 1775, in-4. — 
+      <em>Histoire de l'astronomie moderne#
+      , Paris, 1785, 3 vol. in-4. — 
+      <em>Lettres sur l'Atlantide#
+      , 1779, édition citée par POUGENS.
+    <li .auteur>
+      <span>BALZAC#
+      .
+      <em>Les œuvres de M. de Balzac#
+      , Paris, 1665, 2 vol. in-f°.
+    <li .auteur>
+      <span>BARBAZAN#
+      .
+      <em>Fabliaux et contes des poëtes français des XIe, XIIe, XIIIe, XIVe et XVe siècles#
+      , publiés par Barbazan, 4 vol. in-8, Paris, 1808.
+    <li .auteur>
+      <span>BARBIER (AUGUSTE)#
+      .
+      <em>Ïambes et poésies#
+      , 11e édit. Paris, 1860.
+    <li .oeuvre>
+      <span>BARLAAM ET JOSAPHAT#
+      . Voy. GUI DE CAMBRAI.
+    <li .auteur>
+      <span>BARTHÉLEMY (L'ABBÉ)#
+      .
+      <em>Anacharsis#
+      , 3e édit. Paris, 1790.
+    <li .auteur>
+      <span>BASSELIN#
+      .
+      <em>Les vaudevires#
+      , poésies du XVe siècle par Olivier Basselin, Vire, 1811.
+    <li .oeuvre>
+      <span>BATAILLE (LA) D'ALESCHANS#
+      . Voy. GUILLAUME D'ORENGE.
+    <li .oeuvre>
+      <span>BATAILLE DES SEPT ARTS#
+      .
+      <em>La bataille et le mariage des VII arts#
+      , publié par A.  Jubinal.  Paris, 1838.
+    <li .auteur>
+      <span>BAUDOUIN DE CONDÉ#
+      .
+      <em>Dits et contes de Baudouin de Condé et de son fils Jean de Condé#
+      , publiés par Aug. Scheler, Bruxelles, 1866, 3 vol. in-8.
+    <li .auteur>
+      <span>BAUDRY ET JOURDIER#
+      .
+      <em>Catéchisme de l'agriculture#
+      , 3e édit. Paris, 1869.
+    <li .auteur>
+      <span>BAUDRY (FR.)#
+      .
+      <em>Grammaire comparée des langues classiques#
+      , Paris, 1868.
+    <li .oeuvre>
+      <span>BAUDUIN DE SEBOURC (li romans de)#
+      , Valenciennes, 1842, 2 vol. in-8.
+    <li .auteur>
+      <span>BAYLE#
+      .
+      <em>Lettre sur les comètes#
+      , Cologne, 1682, in-12. — 
+      <em>Lettres choisies
+      de M. Bayle avec les Remarques, 4 vol. in-12. Rotterdam, 1714. — 
+      <em>Extrait du Dict. historique et critique#
+      , 2 vol. Berlin, chez Voss, 1767.
+    <li .auteur>
+      <span>BEAUGUÉ#
+      .
+      <em>Histoire de la guerre d'Écosse#
+      , par Jean de Beaugué, gentilhomme françois, avec un avant-propos par le comte de Montalembert, Bordeaux, 1862, in-12.
+    <li .auteur>
+      <span>BEAULIEU (EUSTORGE DE)#
+      .
+      <em>Ballades, Annales poétiques
+      depuis l'origine de la poésie française, Delalain, 1778, t. III (il y en a 24).
+    <li .auteur>
+      <span>BEAUMANOIR#
+      .
+      <em>Les coutumes du Beauvoisis#
+      , par Philippe de Beaumanoir, nouvelle édition publiée par le comte Beugnot, 2 vol. Paris, Renouard, 1842. Les chiffres arabes indiquent la page du tome 1er.
+    <li .auteur>
+      <span>BEAUMARCHAIS#
+      .
+      <em>Œuvres complètes de Caron de Beaumarchais#
+      , 7 vol. in-8, Paris, 1809.
+    <li .auteur>
+      <span>BELLAY (DU)#
+      .
+      <em>Les Mémoires de Mess. Martin du Bellay#
+      , Paris, 1582, in-f°, chez Abel l'Angelier.
+    <li .auteur>
+      <span>BELLEAU (REMI)#
+      .
+      <em>Bergeries#
+      , Paris, Gilles, 1578, édition citée par LACURNE.
+    <li .auteur>
+      <span>BELLIER (P.)#
+      .
+      <em>P. Bellier#
+      , trad. de Philon, 1575, in-f°, p. 271.
+    <li .auteur>
+      <span>BELLOY (DE)#
+      .
+      <em>Gaston et Bayard#
+      .
+    <li .auteur>
+      <span>BELON (P.)#
+      .
+      <em>De la nature des oiseaux#
+      , Paris, Cavellat, 1555, in-f°.
+    <li .auteur>
+      <span>BENOÎT#
+      .
+      <em>Chronique des ducs de Normandie
+      par Benoît, trouvère anglo-normand du XIIe siècle, publiée pour la première fois d'après un manuscrit du Musée britannique, par Francisque Michel, Paris, Imprimerie royale, 1er vol. 1836, 2e vol. 1838, 3e vol. 1844.
+    <li .auteur>
+      <span>BÉRANGER (DE)#
+      .
+      <em>Œuvres complètes#
+      , Paris, 1836.
+    <li .auteur>
+      <span>BERCHEURE#
+      .
+      <em>Traduction de Tite-Live#
+      , manuscrit français, n° 20312 ter, Bibl. nat.
+    <li .auteur>
+      <span>BERNARD (SAINT)#
+      .
+      <em>Choix de sermons#
+      , à la suite du Livre des Rois (voy. ROIS).
+    <li .auteur>
+      <span>BERNARD DE GORDON#
+      .
+      <em>La pratique de maistre Bernard de Gordon#
+      , en françois, Lyon, 1495.
+    <li .oeuvre>
+      <span>BERNARDIN DE SAINT-PIERRE#
+      ,
+      <em>Paul et Virginie#
+      . —
+      <em>Chaumière indienne#
+      . — 
+      <em>Harmonies de la nature#
+      . — 
+      <em>Œuvres complètes#
+      , Paris, 1818, 12 vol. in-8.
+    <li .auteur>
+      <span>BERNIS#
+      .
+      <em>Œuvres#
+      , Londres, 1777
+    <li .oeuvre>
+      <span>BERTE AUX GRANDS PIEDS#
+      , publié par Paulin Paris, Paris, 1832.
+    <li .auteur>
+      <span>BEUDANT#
+      .
+      <em>Cours élémentaire de géologie#
+      , Paris, 8e édit. 1858.
+    <li .auteur>
+      <span>BEZE#
+      .
+      <em>Vie de Calvin#
+      , édit. de A. Franklin.
+    <li .auteur>
+      <span>BIOT#
+      .
+      <em>Précis de l'histoire de l'astronomie planétaire#
+      , par V. B. Biot, Paris, 1847, in-4, extrait du Journal des savants.
+    <li .auteur>
+      <span>BISTON (P.)#
+      .
+      <em>De la fausse noblesse en France#
+      , Paris, 1861.
+    <li .oeuvre>
+      <span>BLONDE ET JEHAN#
+      , par Philippe de Reim.
+      <em>The romance of Blonde of Oxford and Jehan of Dammartin#
+      , edited by Leroux de Lincy.
+    <li .auteur>
+      <span>BLONDEL (L)#
+      .
+      <em>Nouvel aperçu sur l'Algérie#
+      , Paris, 1838.
+    <li .auteur>
+      <span>BOILEAU#
+      .
+      <em>Œuvres complètes de Boileau#
+      , Paris, 1859, in-12.
+    <li .auteur>
+      <span>BOISGUILLEBERT#
+      .
+      <em>Le détail de la France, Factum de la France et opuscules divers#
+      , dans la Collection des principaux économistes de Guillaumin, Paris, 1840-1848, 16 vol. in-8.
+    <li .auteur>
+      <span>BONHOMME (H.)#
+      .
+      <em>Mme de Maintenon et sa famille#
+      , Paris, 1863.
+    <li .auteur>
+      <span>BONIVARD (FRANÇOIS)#
+      .
+      <em>Chroniques de Genève#
+      , publiées par G. Revillod, 2 vol. in-8, Genève, 1867. —
+      <em>Advis et devis. De la source de l'idolâtrie et tyrannie papale#
+      , Genève, 1856. —
+      <em>Advis et devis. De l'ancienne et nouvelle police de Genève#
+      , suivis des
+      <em>advis et devis de noblesse et de ses offices ou degrés#
+      , Genève, 1865. —
+      <em>Advis et devis des langues#
+      , suivis de
+      <em>l'Amartigenée#
+      , Genève, 1865.
+    <li .auteur>
+      <span>BONNET (CH.)#
+      .
+      <em>Œuvres#
+      , 13 vol. in-8, Berne, 1779-1788, édit. citée par POUGENS.
+    <li .auteur>
+      <span>BOSSUET#
+      .
+      <em>Œuvres#
+      , 43 vol. 1815-1819.
+      <em>Lett. abb.
+      ou
+      <em>Alb.
+      Ce sont&#x202f;:
+      <em>Lettres à Mme Albert de Luynes#
+      , religieuse de l'abbaye de Jouarre.
+    <li .auteur>
+      <span>BOUGAINVILLE#
+      .
+      <em>Voyages#
+      , 2 vol. in-8, 1772, édition citée par POUGENS.
+    <li .auteur>
+      <span>BOUHOURS#
+      .
+      <em>Remarques nouvelles sur la langue françoise#
+      , 3e édit. Paris, 1692. —
+      <em>Doutes sur la langue françoise#
+      , 2e édit. Paris, 1675. —
+      <em>Les entretiens d'Ariste et d'Eugène#
+      , 5e édit. Paris, 1683.
+    <li .auteur>
+      <span>BOULAINVILLIERS#
+      .
+      <em>Réfutation des erreurs de Benoît de Spinosa#
+      , par M. de Fénelon, archevêque de Cambrai, par le P.Lami, bénédictin, et par M. le comte de Boulainvilliers, avec la vie de Spinosa, Bruxelles, chez Fr. Foppens, 1731, in-18.
+    <li .auteur>
+      <span>BOURDALOUE#
+      .
+      <em>Œuvres#
+      , Paris, 1716, 20 vol. in-12.
+    <li .auteur>
+      <span>BOURDIGNÉ#
+      .
+      <em>La légende de maistre Pierre Faifeu#
+      , mise en vers par Ch. Bourdigné, Paris, Coustelier, 1723, in-8, édition citée par LACURNE.
+    <li .auteur>
+      <span>BOURSAULT#
+      .
+      <em>Lettres nouvelles#
+      , Paris, 1738, c'est l'édition citée par POUGENS. —
+      <em>Théâtre de feu M. Boursault#
+      , Paris, 1725, 3 vol. in-12.
+    <li .auteur>
+      <span>BOUTARD#
+      .
+      <em>Dictionnaire des arts du dessin#
+      , la peinture, la sculpture, la gravure et l'architecture, 1 vol. in-8, Paris, 1826.
+    <li .auteur>
+      <span>BOUTEILLER#
+      .
+      <em>Somme rural#
+      , publiée par Charondas le Caron, Paris, 1603, in-4, édit. citée par LACURNE.
+    <li .auteur>
+      <span>BOVILLES (CH.)#
+      .
+      <em>Géométrie en françois#
+      , Paris, 1511, in-4.
+    <li .auteur>
+      <span>BRACH (PIERRE DE)#
+      .
+      <em>Œuvres poétiques#
+      , publiées et annotées par Reinhold Dezeimeris, Paris, 18611862, 2 vol. petit in-4. —
+      <em>Imitation de Pierre de Brach#
+      , Bourdeaus, 1854, petit in-4. —
+      <em>Quatre chants de la Hierusalem de Torqualo Tasso#
+      , Paris, 1596, in-8.
+    <li .auteur>
+      <span>BRACHET#
+      .
+      <em>Étude sur Bruneau de Tours, trouvère du XIIIe siècle#
+      , par A. Brachet, Paris, 1865. —
+      <em>Grammaire historique de la langue française#
+      , Paris, Hetzel. —
+      <em>Dictionnaire étymologique de la langue française#
+      , Paris, Hetzel.
+    <li .auteur>
+      <span>BRANTÔME#
+      . Œuvres, édit. de 1666, édition citée par LACURNE.
+    <li .auteur>
+      <span>BRARD#
+      . Minéralogie appliquee aux arts, Paris, 1821.
+    <li .auteur>
+      <span>BRÉBEUF#
+      . La Pharsale de Lucain. Paris, 1670.
+    <li .auteur>
+      <span>BRIFAUT#
+      . Ninus II.
+    <li .auteur>
+      <span>BRISSON#
+      . Traité élémentaire des principes de physique, 3 vol. in-12, Paris, 1789.  édition citée par POUGENS.
+    <li .auteur>
+      <span>BRONGNIART (A.)#
+      . Traité de minéralogie, 2 vol. in-8, Paris, 1807, édit. citée par POUGENS.
+    <li .auteur>
+      <span>BROSSES (CHARLES DE)#
+      . Lettres historiques et critiques sur l'Italie, 3 vol. Paris, an VII.
+    <li .auteur>
+      <span>BRUNETTO LATINI#
+      . Li livres dou tresor, publié pour la première fois par Chabaille, Paris, 1863.
+    <li .auteur>
+      <span>BRUSLÉ (J.)#
+      . Lucien en belle humeur, 2 vol. in-12. Amsterdam, 1694, édition citée par POUGENS.
+    <li .auteur>
+      <span>BUFFET (MARGUERITE)#
+      . Observations sur la langue française, Paris, 1668.
+    <li .auteur>
+      <span>BUFFIER (LE P.)#
+      . Principes du raisonnement, Paris, 1714, in-12.
+    <li .oeuvre>
+      <span>BULLETIN#
+      . Bulletin de la Société d'anthropologie de Paris, t. I-V. Paris, in-8. — Bulletin de la Société archéologique de Béziers, Hérault, in-8, Béziers.
+    <li .oeuvre>
+      <span>BUREAU DU CONCILE DE TRENTE#
+      . Voy. GENTILLET.
+    <li .auteur>
+      <span>BURGAUD#
+      . Recueil de fables et Contes en patois saintongeais, par H. Burgaud des Marets, 3e édition, Paris, F. Didot, 1859.
+    <li .auteur>
+      <span>BUSSY-RABUTIN#
+      . Histoire amoureuse des Gaules, Amsterdam, 1671. — Lettres, 7 vol. in-12, Paris, 1720. — Le Cabinet des chansons, in-12, 1631.
+
+  <h2 #lettre-C>C
+
+  <ul>
+    <li .auteur>
+      <span>CAFFIAUX (H.)#
+      . Abatis de maisons à Gommegnies, Valenciennes, 1863. — Commencements de la régence d'Aubert de Bavière, 1357-1362, par H. Caffiaux, Valenciennes, 1868. — Nicole de Dury, maître clerc de la ville de Valenciennes, 1361-1373, par H. Caffiaux, Valenciennes, 1866.
+    <li .auteur>
+      <span>CAILLET (J.)#
+      . L'administration en France sous Richelieu, Paris, 1860.
+    <li .auteur>
+      <span>CALVIN#
+      . Institution de la religion chrestienne, nouvellement mise en quatre livres et distinguée par chapitres, en ordre et methode bien propre ; augmentée aussi de tel accroissement qu'on la peut estimer presque un livre nouveau, par Jean Calvin, à Genève, de l'Imprimerie de Jaques Bourgeois, MDLXI. — Lettres de Calvin à Jaques de Bourgogne, sieur de Falais en Brabant, Amsterdam, 1744, in-8.
+    <li .auteur>
+      <span>CAMPISTRON#
+      . Auteur d'Andronic.
+    <li .auteur>
+      <span>CAP#
+      . Audubon, naturaliste américain, Étude biographique, Paris, 1862.  — Commerson Philibert, naturaliste voyageur, Étude biographique, par Cap, Paris, 1861, Victor Masson.
+    <li .auteur>
+      <span>CAPPEAU#
+      . De la Compagnie des alpines, Aix, 1817.
+    <li .oeuvre>
+      <span>CAQUETS de l'accouchée#
+      , 1624, sans lieu, in-18, édit. citée par LACURNE.
+    <li .auteur>
+      <span>CARLOIX#
+      . Mémoires de la vie de François de Scepeaux, sire de Vieilleville et comte de Duretal, 5 vol. in-12, Paris, 1757.
+    <li .auteur>
+      <span>CARREL (ARMAND)#
+      . Œuvres, Paris, 1857.
+    <li .auteur>
+      <span>CASTAN#
+      . Le siége de Besançon par Rodolphe de Habsbourg et Jean de Chalon-Arlay, en 1289 et 1290, Besançon, 1869.
+    <li .auteur>
+      <span>CASTELNAU#
+      . Les Mémoires de messire Michel de Castelnau, in-fol. Paris, 1659.
+    <li .oeuvre>
+      <span>CATALOGUE raisonné des tableaux, diamants, etc.#
+       par E. F. Gersaint, Paris, 1748.
+    <li .auteur>
+      <span>CAYLUS#
+      . Œuvres complètes badines du comte de Caylus, 12 vol. in-8, Amsterdam et Paris, 1787, édition citée par POUGENS.
+    <li .auteur>
+      <span>CAZOTTE#
+      . Le Diable amoureux, roman fantastique, précédé de sa vie, de son procès, de ses prophéties et révélations, par G. de Nerval, Paris, 1845.
+    <li .auteur>
+      <span>CELLER (LUD.)#
+      . Les origines de l'Opéra, Paris, 1868.
+    <li .auteur>
+      <span>CHAMFORT#
+      . Œuvres de Chamfort, édition Arsène Houssaye, Paris, 1857.
+    <li .auteur>
+      <span>CHAMPFLEURY#
+      . Histoire de l'imagerie populaire, in-12, 1869, chez Dentu.
+    <li .auteur>
+      <span>CHAMPIONNIÈRE#
+      . De la propriété des eaux courantes, Paris, 1846, 1 vol. in-8.
+    <li .auteur>
+      <span>CHAMPOLLION#
+      . Grammaire égyptienne, Paris, 1836.
+    <li .oeuvre>
+      <span>CHANSON D'ANTIOCHE (LA)#
+      , publiée par P. Paris, 1848, 2 vol. in-12, Paris.
+    <li .oeuvre>
+      <span>CHANSON DE ROLAND (LA)#
+      , publiée par Fr. Michel, Paris, 1837, in-8.
+    <li .auteur>
+      <span>CHAPELLE#
+      . Œuvres de Chapelle et de Bachaumont, la Haye, 1755.
+    <li .auteur>
+      <span>CHARLES DE BERNARD (Ch#
+      . Bern. Dugrail de la Villette, connu sous le nom de), Œuvres, 12 vol. in-12, chez Michel Lévy.
+    <li .auteur>
+      <span>CHARLES D'ORLÉANS#
+      . Poésies de Charles d'Orléans, publiées par Guichard, Paris, 1842.
+    <li .auteur>
+      <span>CHARRAS#
+      . Histoire de la guerre de 1813 en Allemagne, 1 vol. Leipzig, 1866. — Waterloo, Bruxelles, 4e édit. 1863.
+    <li .oeuvre>
+      <span>CHARROIS (LI) DE NYMES#
+      . Voy. GUILLAUME D'ORENGE.
+    <li .auteur>
+      <span>CHARRON#
+      . De la sagesse, Amsterdam, Elzevier, 1662, in-12, édit. citée par LACURNE.
+    <li .auteur>
+      <span>CHARTIER#
+      . Les œuvres de maistre Alain Chartier, Paris, 1617, édit.  d'André Duchesne.
+    <li .auteur>
+      <span>CHASTELLAIN (G)#
+      . Chronique des ducs de Bourgogne, publiée par J. A.  Buchon, Paris, 1827, 2 vol. in-8. — Chronique de J. de Lalain, Paris, 1825, 1 vol. in-8.
+    <li .auteur>
+      <span>CHASTIE-MUSART#
+      , dans RUTEBEUF, t. II, p. 478.
+    <li .auteur>
+      <span>CHATEAUBRIAND#
+      . Œuvres, chez Furne, Paris, 1834.
+    <li .auteur>
+      <span>CHATEAUBRUN#
+      , auteur des Troyennes.
+    <li .auteur>
+      <span>CHAULIEU#
+      . Œuvres diverses, 2 vol. Amsterdam, 1733.
+    <li .auteur>
+      <span>CHÉNIER (A.)#
+      . Œuvres, Paris, 1822, in-18 ; édit. N. BECQ DE FOUQUIÈRES, Paris, Charpentier, 1862.
+    <li .auteur>
+      <span>CHÉNIER (M. J.)#
+      . Théâtre et poésies, 8 vol. in-8, 1824.
+    <li .auteur>
+      <span>CHÉRUEL#
+      . Dictionnaire des institutions, moeurs et coutumes de la France, 2 vol. in-12, 1855.
+    <li .auteur>
+      <span>CHIFFLET#
+      . Grammaire française, Paris, 1700.
+    <li .auteur>
+      <span>CHOISY (L'ABBÉ DE)#
+      . Journal du voyage de Siam, Trévoux, in-12, 1741.
+    <li .auteur>
+      <span>CHOLIÈRES#
+      . Contes, Paris, 1610, in-12, édit. citée par LACURNE.
+    <li .auteur>
+      <span>CHRESTIEN DE TROYES#
+      . Bibliographie de Chrestien de Troyes, par Ch.  Potvin, Bruxelles, 1863, 1 vol. in-8. — Li romans dou chevalier au Lyon, Hanover, 1862, in-8, publié par W. L. HOLLAND.
+    <li .auteur>
+      <span>CHRISTINE DE PISAN#
+      . Le livre des fais et bonnes moeurs du sage roy Charles V, dans la Collection Petitot.
+    <li .oeuvre>
+      <span>CHRONIQUE de St Denis#
+      , Paris, Antoine Verard, 1493, édit. citée dans LACURNE. — 
+      <span>Chronique du siége de Boulogne#
+      , en 1544, par A. Morin, prêtre, publiées par M.  François Morand, Paris, 1866. — 
+      <span>Chroniques anglo-normandes#
+      , Recueil d'extraits et d'écrits, etc. publié par Fr. Michel, 3 vol. in-8, Paris, 1840. — 
+      <span>Collection de chroniques belges inédites#
+      , publiée par ordre du gouvernement, in-4. — 
+      <span>La chronique de Rains#
+      , publiée par L. Paris, Paris, Techener, 1837.
+    <li .auteur>
+      <span>CITRI DE LA GUETTE#
+      . Histoire du premier et du second triumvirat, Paris, 1681.
+    <li .oeuvre>
+      <span>CIVILITÉ#
+      . Nouveau traité de la civilité qui se pratique en France parmi les honnêtes gens, Paris, 1673.
+    <li .oeuvre>
+      <span>CLEF#
+      . La Clef des chansonniers au Mont Parnasse, Paris, 1717, in-8, cité dans FR. MICHEL, Argot.
+    <li .auteur>
+      <span>COCCAÏE (MERLIN)#
+      . Œuvres, 1734, sans lieu, 2 vol. in-12, édit.  citée par LACURNE.
+    <li .auteur>
+      <span>COLBERT#
+      . Lettres, instructions et mémoires de Colbert, publiés par P.  Clément, Paris, 1861.
+    <li .auteur>
+      <span>COLLÉ#
+      . Chansons joyeuses, Paris, 1765.
+    <li .auteur>
+      <span>COLLIN DE PLANCY#
+      . Dictionnaire infernal, 4 vol. in-8. Paris, 1826.
+    <li .auteur>
+      <span>COLOMBIÈRE#
+      . Voy. LA COLOMBIÈRE.
+    <li .auteur>
+      <span>COMBES#
+      . La Psychologie de saint Thomas d'Aquin, Montpellier, 1860, in-8.
+    <li .auteur>
+      <span>COMINES#
+      . Les Mémoires de messire Philippe de Comines, Paris, 1649, in-f°.
+    <li .oeuvre>
+      <span>COMPLAINTE de Nature à l'alchimiste errant#
+      , dans le roman de la Rose, édit. MÉON, t. IV, p. 123.
+    <li .oeuvre>
+      <span>COMPUT#
+      . Ms. français, n° 7929, Bibl. nat.
+    <li .auteur>
+      <span>CONDÉ#
+      . Mémoires du prince de Condé, dans Nouvelle collection des mémoires pour servir à l'histoire de France, depuis le XIIIe siècle jusqu'à la fin du XVIIIe siècle, par MM. Michaud et Poujoulat, t. VI, publiés par MM. Champollion-Figeac et Aimé Champollion fils.
+    <li .auteur>
+      <span>CONDILLAC#
+      . Œuvres complètes, Paris, an VI (1798), édit. citée par POUGENS.
+    <li .auteur>
+      <span>COQUILLART#
+      . Les Poésies de Guill. Coquillart, official de l'Église de Reims, Paris, Coustelier, 1723, in-8, édition citée dans LACURNE.
+    <li .auteur>
+      <span>CORNEILLE (P.)#
+      . Théâtre de P. Corneille, 6 vol. Paris, 1738.
+    <li .auteur>
+      <span>CORNEILLE (TH.)#
+      . Poëmes dramatiques de Th. Corneille, 3 vol. in-12, 1661 et 1666.
+    <li .oeuvre>
+      <span>CORONEMENS (LI) LOOYS#
+      . Voy. GUILLAUME D'ORENGE.
+    <li .auteur>
+      <span>CORSSEN#
+      . Ueber aussprache, vokalismus und betonung der lateinischen sprache, 1re édit. Leip zig, 1858 ; 2e édit. Leipzig, 1868. — Kritische bei träge zur lateinischen formenlehre, Leipzig, 1863 — Kritische nachträge zur lateinischen formenlehre, Leipzig, 1866.
+    <li .auteur>
+      <span>COSNAC#
+      . Mémoires, publiés par la Société de l'histoire de France.
+    <li .auteur>
+      <span>COUCY#
+      . Chansons de chatelain de Coucy, revues sur les mss. par Fr.  Michel, Paris, 1830.
+    <li .auteur>
+      <span>COUCY (MATHIEU DE)#
+      . Dans Histoire de Charles VII, par Jean Chartier, Berry, Mathieu de Coucy et autres, mise en lumière par Denys Godefroy, Paris, imprimerie royale, 1661, in-f°, édit. citée par LACURNE.
+    <li .auteur>
+      <span>COURIER (P. L.)#
+      . Collection complète des pamphlets politiques et opuscules littéraires de PaulLouis Courier, ancien canonnier à cheval, 2 vol. Bruxelles, Louis Tencé, 1826. — Mémoires, correspondance et opuscules inédits de Paul-Louis Courier, 2 vol. Paris, 1828.
+    <li .auteur>
+      <span>COURNOT#
+      . Considérations sur la marche des idées et des événements dans les temps modernes, 2 vol. in-8, Paris, Hachette, 1872. — Traité de l'enchaînement des idées fondamentales dans les sciences et dans l'histoire, 2 vol. Paris, 1861.
+    <li .auteur>
+      <span>COURRIER#
+      . Le Courrier burlesque de la guerre de Paris, envoyé à M. le prince de Condé, pour divertir Son Altesse durant sa prison, dans RÉTZ, Mémoires, collection PETITOT.
+    <li .auteur>
+      <span>COUSIN (VICTOR)#
+      . Des pensées de Pascal, Paris, 1843, in-8.
+    <li .auteur>
+      <span>COUSSEMAKER#
+      . L'art harmonique, aux XIIe et XIIIe siècles, Paris, 1865.
+    <li .auteur>
+      <span>COUTUMIER#
+      . Le nouveau coutumier général, publié par Bourdot de Richebourg, 4 vol. in-f°. Paris, 1724.
+    <li .oeuvre>
+      <span>COVENANS (LI) VIVIEN#
+      . Voy. GUILLAUME D'ORENGE.
+    <li .auteur>
+      <span>COYPEL (NOEL)#
+      , 1670. Discours sur la peinture dans Revue universelle des arts, publiée par Paul Lacroix et Marsuzi de Aguirre, t. XVIIIe, 9e année, p.  336-344.
+    <li .auteur>
+      <span>CRÉBILLON#
+      . Œuvres de M. de Crébillon, 2 vol. in-4, Paris, 1750.
+    <li .auteur>
+      <span>CRESCENCES#
+      . Livre des proufits champestres et ruraulx, compilé par maistre Pierre de Crescences et translaté depuis en langage françois, 1486.
+    <li .auteur>
+      <span>CRÉTIN (GUILLAUME)#
+      . Poésies, Paris, Coustelier, 1723, édit. citée par LACURNE.
+    <li .auteur>
+      <span>CURTIUS (GEORG)#
+      . Grundzüge der griechischen etymologie, 1re édit. Leipzig, 2e édit. Leipzig, 1866.
+    <li .auteur>
+      <span>CUVIER#
+      . Discours sur les révolutions de la surface du globe, 8e édit. Paris, 1840.
+
+  <h2 #lettre-D>D
+
+  <ul>
+    <li .auteur>
+      <span>DANCOURT#
+      . Œuvres. 2e édit. Paris, 1729, 9 vol. in-12. — Femme d'intrigues de Dancourt (mise par erreur sous le nom de PALAPRAT).
+    <li .auteur>
+      <span>DANGEAU#
+      . Journal de Dangeau, Paris, 1858.
+    <li .oeuvre>
+      <span>DANIEL STERN#
+      , Esquisses morales, 3e éd. — Essai sur la liberté, 1re éd.
+    <li .auteur>
+      <span>DECOURCHAMP#
+      . Souvenirs de Mme de Créquy, Paris, 10 vol. in-12, chez Garnier frères.
+    <li .auteur>
+      <span>DELAMONT#
+      . Poste aux lettres, in-8. Bordeaux, 1870.
+    <li .oeuvre>
+      <span>DELAROCHE (EST.)#
+      , dit VILLEFRANCHE. L'arismetique, nouvellement composée par Est. De la Roche, dit Villefranche, Lyon, 1520, in-4.
+    <li .auteur>
+      <span>DELAVIGNE (CAS.)#
+      . Œuvres, Paris, Didier, 1850.
+    <li .auteur>
+      <span>DELÉCLUZE (E. J.)#
+      . Exposition des artistes vivants, 1850, Paris, in-8, 1851.
+    <li .auteur>
+      <span>DELILLE (JACQUES)#
+      . Œuvres, Paris, 1803-1812, 17 vol. in-8.
+    <li .auteur>
+      <span>DELISLE#
+      . Études sur la condition de la classe et de l'état de l'agriculture en Normandie au moyen âge, Évreux, 1851.
+    <li .auteur>
+      <span>DELOCHE#
+      . Description des monnaies mérovingiennes du Limousin, Paris, 1863.
+    <li .auteur>
+      <span>DESCARTES#
+      . Œuvres philosophiques, édit. AD. GARNIER, Paris, 1835.
+    <li .auteur>
+      <span>DESCHAMPS (E.)#
+      . Poésies morales et historiques publiées pour la première fois par E. A. Crapelet, Paris, 1832, in-8. — Poésies manuscrites, mss. fr. anc. fonds, n° 7219. Bibl. nat.
+    <li .auteur>
+      <span>DESFONTAINES#
+      . Dictionnaire néologique à l'usage des beaux esprits du siècle, avec Pantalon Phoebus, Amsterdam, 1728, in-12.
+    <li .auteur>
+      <span>DESHOULIÈRES#
+      . Poésies de Mme et Mlle Deshoulières, Paris, 1732, 2 vol.
+    <li .auteur>
+      <span>DESMAHIS#
+      . Œuvres diverses, Genève, 1763, in-12, éd. citée par POUGENS.
+    <li .auteur>
+      <span>DESMARETS#
+      . Mirame dans les œuvres de Desmarets. — Érigone, tragi-comédie en prose de Desmarets.
+    <li .auteur>
+      <span>DESPORTES#
+      . Œuvres, Paris, Delahays, 1858.
+    <li .auteur>
+      <span>DESQUIRON#
+      . Commentaire sur le décret impérial du 17 mars 1808, concernant les droits et les devoirs des juifs, Mayence, in-12.
+    <li .oeuvre>
+      <span>DICTIONNAIRE portatif des Arts et Métiers#
+      , contenant en abrégé l'histoire, la description et la police des Arts et Métiers, des Fabriques et Manufactures de France et des pays étrangers, 2 vol. petit in-8, Amsterdam.
+    <li .auteur>
+      <span>DIDEROT#
+      . Œuvres, éd. de NAIGEON, Paris, 1798, édition citée par POUGENS.
+    <li .auteur>
+      <span>DIEZ (FR.)#
+      . Etymologisches wörterbuch der romanischen sprachen, 1re édit. Bonn, 1853 ; 2e édit. 1861.
+    <li .auteur>
+      <span>DOZY (R.)#
+      . Glossaire des mots espagnols et portugais dérivés de l'arabe, par Dozy et H. Engelmann, 2° édit. Leyde, 1869.
+    <li .auteur>
+      <span>DRALET#
+      . Traité des forêts d'arbres résineux, Toulouse, 1820.
+    <li .auteur>
+      <span>DU BELLAY (JOACHIM)#
+      . Œuvres françoises, Paris, Morel, 1569 (c'est l'édition citée dans le Dictionnaire) ; Rouen, 1592, édit. citée par LACURNE.
+    <li .auteur>
+      <span>DUCERCEAU#
+      . Recueil de poésies diverses, Paris, 1733.
+    <li .auteur>
+      <span>DUCLOS#
+      . Œuvres complètes, Paris, 1806, édit. citée par POUGENS.
+    <li .auteur>
+      <span>DU FAIL (NOEL)#
+      . Contes d'Eutrapel, Rennes, 1603, in-8, édit. citée par LACURNE.
+    <li .auteur>
+      <span>DUFRESNY#
+      . Œuvres de Rivière du Fresny, 4 vol. in-12, Paris 1779.
+    <li .auteur>
+      <span>DU HAILLAN#
+      . Histoire de France, Paris, 1576, in-fol.
+    <li .auteur>
+      <span>DUMARSAIS#
+      . Œuvres, 7 vol. in-8, Paris, 1797, édition citée par POUGENS.
+    <li .auteur>
+      <span>DUMESNIL (J.)#
+      . Histoire des amateurs français, 3 vol. 1856-1858 ; italiens, 1 vol. 1853 ; étrangers, 1 vol. 1860 ; 5 vol. in-8, Paris, Jules Renouard.
+    <li .auteur>
+      <span>DUPONT (PAUL)#
+      . Histoire de l'imprimerie, Paris, in-12.
+    <li .auteur>
+      <span>DUPONT-WHITE#
+      . La liberté politique considérée dans ses rapports avec l'administration locale, Paris, 1864. — Le progrès politique en France, Paris, 1868. — L'Individu et l'État, 2e édit. — La Centralisation, suite de l'Individu et l'État, 2e éd. Paris, 1861.
+    <li .auteur>
+      <span>DURAND (ÉMILE)#
+      . Recherches étymologiques, Saint-Pétersbourg, 1866.
+    <li .auteur>
+      <span>DU RYER#
+      . Tragédies : Scévole, Thémistocle, Saül.
+    <li .auteur>
+      <span>DUSSIEUX (L.)#
+      . Le Canada sous la domination française, Paris, 1862.
+    <li .auteur>
+      <span>DUTOT#
+      . Réflexions politiques sur les finances et le commerce. Collection des principaux économistes, Guillaumin, Paris 1840-1848, 16 vol. in-8.
+    <li .auteur>
+      <span>DUVERDIER#
+      . La Bibliothèque d'Antoine du Verdier, in-fol. Lyon, 1585, édit. citée par LACURNE et POUGENS.
+
+  <h2 #lettre-D>D
+
+  <ul>
+    <li .oeuvre>
+      <span>ÉDOUARD LE CONFESSEUR#
+      . Lives of Edward the confessor, edited by H. Richards Luard, Londres, in-8°.
+    <li .oeuvre>
+      <span>ENQUÊTE sur le taux de l'intérêt de l'argent#
+      , Paris, Imprimerie impériale, 1865.
+    <li .oeuvre>
+      <span>ESCOUFLE (LE ROMAN DE L')#
+      , ms. n° 178, in-4°, Bibl. de l'Arsenal, Belles-lettres.
+    <li .oeuvre>
+      <span>ESPRIT DE LEIBNITZ ou recueil de ses pensées choisies#
+      , Lyon, 1772, 2 vol. in-12.
+    <li .auteur>
+      <span>ESTIENNE (H.)#
+      . Apologie pour Hérodote, 1566, in-8, sans lieu, édition citée par LACURNE. — Conformité du langage françois avec le grec, édit. FEUGÈRE, un vol. 1853, in-12. — De la précellence du langage françois, Pâris, 1579, in-12.
+    <li .oeuvre>
+      <span>EULALIE#
+      , dans LITTRÉ, Histoire de la langue française, Paris, 1867, t. II, p. 288, et dans CHEVALLET, Origine et formation de la langue française, t. I, p. 84.
+    <li .oeuvre>
+      <span>ÉVANGILES#
+      . Les Évangiles des Quenouilles, Paris, Jannet, 1855. Ouvrage attribué à Fouquart de Cambray, Anthoine du Val et Jean d'Arras. — Composé, à ce qu'on croit, en Belgique, vers le milieu du XVe siècle.
+    <li .auteur>
+      <span>EXPILLY#
+      . Supplément à l'histoire de Bayard, dans l'histoire du chevalier Bayard, Grenoble, 1651. Ce supplément est celui que cite LACURNE.
+
+  <h2 #lettre-F>F
+
+  <ul>
+    <li .auteur>
+      <span>FALCONET#
+      . Œuvres diverses, concernant les arts, 3 vol. in-12, Paris, 1787.
+    <li .auteur>
+      <span>FARÉ (H.)#
+      . Enquête sur les incendies des forêts, Paris, 1869.
+    <li .auteur>
+      <span>FAUCHET (CL.)#
+      . Recueil de l'origine de la langue et poésie françoises, in-4, Paris, 1581, édition citée par LACURNE.
+    <li .auteur>
+      <span>FÉLIBIEN#
+      . Histoire de la ville de Paris, 5 vol. in-fol. Paris, 1725.
+    <li .auteur>
+      <span>FELICE (DE)#
+      . Histoire des protestants de France.
+    <li .auteur>
+      <span>FÉNELON#
+      . Œuvres de Fénelon, 22 vol. in-8. Versailles, 1820. — Morceaux choisis, par l'abbé Rolland, Delalain, in-12.
+    <li .auteur>
+      <span>FENIN (PIERRE DE)#
+      . Mémoires, publiés par Mlle Dupont, Paris, 1837.
+    <li .auteur>
+      <span>FEUGÈRE#
+      . Morceaux choisis des prosateurs et des poëtes français, par Léon Feugère, Delalain, 1840, in-12.
+    <li .oeuvre>
+      <span>FISIOGNOMONIA#
+      . La fisiognomonia, trattatello, in france antico colla versione italiana del trecento, publicato per la prima volta sui codici per cura di E. Teza, Bologne, 1864.
+    <li .auteur>
+      <span>FLÉCHIER#
+      . Mémoires sur les Grands Jours tenus à Clermont en 1665-1666, publiés par B.  Gonod, Bibliothécaire de la ville de Clermont, Paris, 1864, in-8. — Oraisons funèbres, 2 vol. Paris, Antoine Dezallier, 1691. — Histoire de Théodose le Grand, nouvelle édition, 1 vol. Paris, 1734. — Sermons de morale, prêchés devant le roi, par M. Fléchier, évêque de Nîmes, avec ses discours synodaux et autres, prêchés à l'ouverture des Etats de Languedoc, et dans sa cathédrale, 2 vol. Bruxelles, 1733.
+    <li .auteur>
+      <span>FLEURY#
+      . Histoire ecclésiastique, Paris, 1724, 36 vol. in-12.
+    <li .oeuvre>
+      <span>FLORE ET BLANCHEFLEUR#
+      . Floire et Blancheflor, publié par M. Edelstand du Méril, Paris, 1856
+    <li .auteur>
+      <span>FONTAINE (CHARLES)#
+      . Quintil Horatian, Paris, 1564, édit. citée par LACURNE. — Les trois premiers livres d'Artemidorus, traduits, 1546, in-8.
+    <li .oeuvre>
+      <span>FONTAINE (LA) des Amoureux#
+      , dans le Roman de la Rose, t. IV.
+    <li .auteur>
+      <span>FONTENAY (DE)#
+      . Manuel de l'Amateur de jetons, 1854.
+    <li .auteur>
+      <span>FONTENELLE#
+      . Œuvres, Paris, 1758, in-12, éd. citée par POUGENS.
+    <li .auteur>
+      <span>FORBONNAIS#
+      . Recherches et Considérations sur les finances de la France, Basle, 1758, 2 vol. in-4.
+    <li .auteur>
+      <span>FORCADE (DE)#
+      . Rapport au ministre des finances, 12 févr. 1860, in-4.
+    <li .auteur>
+      <span>FORCADEL#
+      . Les neuf livres des Éléments d'Euclide, traduits par Forcadel, Paris, 1564, in-4.
+    <li .auteur>
+      <span>FOUCAULT#
+      . Mémoires de N. J. Foucault, publiés par FR. BAUDRY, dans les Documents inédits.
+    <li .auteur>
+      <span>FOURCROY#
+      . Système des connaissances chimiques, Paris, an IX, édition citée par POUGENS.
+    <li .auteur>
+      <span>FOURNIER (ED.)#
+      . L'Esprit des autres, 2e édit. — Variétés historiques et littéraires, Paris, Jannet. — Paris démoli, 2e édit. Paris, 1855, in-12.
+    <li .oeuvre>
+      <span>FRAGMENT DE VALENCIENNES#
+      , dans GÉNIN, Chanson de Roland, Paris, 1850, p. 465.
+    <li .oeuvre>
+      <span>FRANCION#
+      . La vraie histoire comique de Francion, composée par Charles Sorel, sieur de Souvigny, nouvelle édit. par Émile Colombey, Paris, 1858, in-12.
+    <li .auteur>
+      <span>FRÉRON#
+      . Observations sur les écrits modernes, Paris, 1736, 7 vol.
+    <li .auteur>
+      <span>FROISSART#
+      . Les chroniques de sire Jean Froissart, publiées par Buchon, Paris, 1835, édit. du Panthéon littéraire. Le Froissart cité par Lacurne est l'édit. de Lyon, 1559, 4 vol. in-fol.  
+    <li .auteur>
+      <span>FROUMENTEAU#
+      . Le Secret des finances de France, in-12, 1581.
+    <li .auteur>
+      <span>FURETIÈRE#
+      . Le Roman bourgeois, Nancy, 1713, in-12. — Recueil des factums d'Antoine Furetière, de l'Académie françoise, contre quelques-uns de cette académie, par Ch.  Asselineau, Paris, 1859, 2 vol. in-12.
+
+  <h2 #lettre-G>G
+
+  <ul>
+    <li .auteur>
+      <span>GALIANI#
+      . Correspondance inédite, 2 vol. in-12, Paris, 1818, éd. citée par POUGENS.
+    <li .auteur>
+      <span>GANDAR#
+      . Choix de sermons de la jeunesse de Bossuet, édit. critique d'après les manuscrits, Paris, 1867.
+    <li .auteur>
+      <span>GARASSE#
+      . Recherche des recherches, Paris, 1622, éd. citée par LACURNE.
+    <li .oeuvre>
+      <span>GARIN LE LOHERAIN#
+      . Publié par P. Paris, Paris, 1833, 2 vol. in-12.
+    <li .auteur>
+      <span>GAUCHET (CLAUDE)#
+      , aumônier de Henri III. Le Plaisir des champs, 1re édit. Paris, 1583 ; 2e édit. Paris, 1604.
+    <li .auteur>
+      <span>GAUDRY#
+      . Traité du domaine.
+    <li .auteur>
+      <span>GAUTIER D'ARRAS#
+      . Voy. ILLE ET GALERON.
+    <li .auteur>
+      <span>GAUTIER DE COINCY#
+      . Les Miracles de la sainte Vierge, traduits et mis en vers par Gautier de Coincy, publiés par M. l'abbé Poquet, 1 vol. in-4, Paris, 1857.
+    <li .auteur>
+      <span>GENLIS#
+      . Mademoiselle de la Fayette ou le siècle de Louis XIII, par Mme de Genlis, Paris, 1813, 1 vol. in-8, édit. citée par POUGENS. — Veillées du château, 3 vol. in-12, Paris 1784, édit. citée par POUGENS. — Œuvres, 1825, chez Ladvocat, 10 vol. in-8, édit.  citée par POUGENS. — Mémoires inédits de Mme la comtesse de Genlis, Paris, 1825, Ladvocat, édit. citée par POUGENS.
+    <li .auteur>
+      <span>GENTILLET#
+      . Le bureau du concile de Trente, par Innocent Gentillet, jurisconsulte dauphinois, in-12, 1586.
+    <li .auteur>
+      <span>GERSON (JEHAN)#
+      . Harengue faicte au nom de l'Université devant le roi Charles sixième, en 1405, Paris, 1824, 3e édit.
+    <li .auteur>
+      <span>GILBERT#
+      , Œuvres, Paris, 1826, 2 vol. in-32.
+    <li .auteur>
+      <span>GIRARD (L'ABBÉ)#
+      . Les vrais principes de la langue française, 2 vol. Paris, 1747.
+    <li .auteur>
+      <span>GIRARDIN#
+      . Girardin et Dubreuil, Traité élémentaire d'agriculture, 2 vol. 2e édit. Paris, 1863.
+    <li .auteur>
+      <span>GIRAUDEAU (P.)#
+      . La banque rendue facile, in-4, Paris, 1769.
+    <li .auteur>
+      <span>GODEAU (ANTOINE)#
+      . Poésies chrestiennes, Paris, 1663, 3 vol. in-12.
+    <li .auteur>
+      <span>GODEFROY#
+      . Histoire de Charles VIII, par Guillaume de Jaligny, André de la Vigne et autres, recueillie par feu Godefroy, Paris, Impr. royale, 1684, in-fol.
+    <li .auteur>
+      <span>GODESCARD#
+      . Vie des saints, chez Gauthier frères, Paris, 1835.
+    <li .oeuvre>
+      <span>GOMBAULT#
+      , auteur des Danaïdes, 1646. — Épigrammes, Paris, 1657, in-16.
+    <li .auteur>
+      <span>GRANDMAISON#
+      . Dictionnaire héraldique, chez Migne, Paris, 1852.
+    <li .auteur>
+      <span>GRANDVAL#
+      . Cartouche ou le Vice puni, 1725.
+    <li .auteur>
+      <span>GRANGEZ (E.)#
+      . Voies navigables de la France.
+    <li .oeuvre>
+      <span>GRÉGOIRE#
+      . Vie du pape Grégoire le Grand, légende française, publiée pour la première fois par V. Luzarche, Tours, 1857, in-12.
+    <li .auteur>
+      <span>GRESSET#
+      . Œuvres, Londres, 2 vol. 1773.
+    <li .auteur>
+      <span>GRÉTRY#
+      . Méthode simple pour apprendre à préluder, Paris, an X, édit. citée par POUGENS.
+    <li .auteur>
+      <span>GREVIN#
+      . De l'imposture des diables, 1577, traduit de Wierus.
+    <li .auteur>
+      <span>GRIMM#
+      . Correspondance littéraire et philosophique et critique, Paris. 1812, édit. citée par POUGENS.
+    <li .oeuvre>
+      <span>GUERSAY#
+      , dans Rutebeuf, t. II, p 435.
+    <li .oeuvre>
+      <span>GUESCLIN#
+      . Chronique de Bertrand du Guesclin, par Cuvelier, publiée par M. Charrière, 2 vol. in-4°.
+    <li .auteur>
+      <span>GUIART#
+      . Branche des royaux lignages, Chronique métrique, publiée par J. A.  Buchon, 2 vol. in-8, Paris 1828.
+    <li .auteur>
+      <span>GUIBERT (COMTE DE)#
+      . Tragédie de Bourbon, 1785.
+    <li .oeuvre>
+      <span>GUILLAUME D'ORENGE#
+      . Chansons de geste des XIe et XIIe siècles, publiées pour la première fois par M. W. J. A. Jonckbloet, 2 vol. La Haye, Martinus Myhoff, 1854 : contenant li Coronemens Looys ; li Charrois de Nymes ; la Prise d'Orenge ; li Covenans Vivien ; la Bataille d'Aleschans.
+    <li .auteur>
+      <span>GUILLEMIN (A.)#
+      . Le Ciel, 1865.
+    <li .auteur>
+      <span>GUI PATIN#
+      . Lettres, édit. publiée par le docteur Réveillé Parise, 3 vol. in-8, Baillière, 1846.
+    <li .auteur>
+      <span>GUIRAUD#
+      . Les Machabées.
+    <li .auteur>
+      <span>GUYOT DE PITAVAL#
+      . Causes célèbres, 2 vol. Paris, 1738.
+
+  <h2 #lettre-H>H
+
+  <ul>
+    <li .auteur>
+      <span>HAMILTON#
+      . Mémoires de la vie du comte de Gramont, la Haye, 1731.
+    <li .auteur>
+      <span>HAUTEFEUILLE#
+      . Code de la pêche maritime, Paris, 1844.
+    <li .auteur>
+      <span>HAUTEROCHE#
+      . Les Œuvres de théâtre de M. Hauteroche, 2 vol. in-12, Paris, 1736.
+    <li .auteur>
+      <span>HENRI DE MONDEVILLE#
+      . Chirurgie, ms. franç.
+    <li .oeuvre>
+      <span>HISTOIRE DE LA CROISADE contre les hérétiques albigeois#
+      , écrite en vers provençaux par un poëte contemporain, traduite et publiée par M. C. Fauriel, Paris, 1837.
+    <li .oeuvre>
+      <span>HISTOIRE DES DIABLES DE LOUDUN#
+      , in-12, Amsterdam, 1737.
+    <li .oeuvre>
+      <span>HISTOIRE NOTABLE (L') DE LA FLORIDE située es Indes occidentales#
+      , contenant les trois voyages faits en icelle par certains capitaines et pilotes françois descrits par le capitaine Laudonnière, mise en lumière par M. Basanier, Paris, Jannet, 1853.
+    <li .oeuvre>
+      <span>HISTORIA NATURALIS BRAZILIÆ#
+      , Lugduni Batavorum, 1648, in-fol.
+    <li .auteur>
+      <span>HOMBERG (TH.)#
+      . De la répression du vagabondage, 1862.
+    <li .auteur>
+      <span>HUET#
+      . De l'Origine des romans, Paris, 1678.
+    <li .auteur>
+      <span>HUGO (VICTOR)#
+      . Poésies, collection Hetzel.
+
+  <h2 #lettre-I>I
+
+  <ul>
+    <li .oeuvre>
+      <span>ILLE ET GALERON#
+      , par Gautier d'Arras, ms. 6987, f° 290, Bibl. nat.
+    <li .oeuvre>
+      <span>INTERNELLE CONSOLATION#
+      . Le livre de l'Internelle consolation, nouvelle édit. par M. L.  Moland et Ch. d'Héricault, Paris, Jannet, 1866.
+
+  <h2 #lettre-J>J
+
+  <ul>
+    <li .auteur>
+      <span>JACQUEMONT (VICTOR)#
+      . Lettres, chez Fournier, Paris, 1843.
+    <li .auteur>
+      <span>JAL (A.)#
+      . Glossaire nautique, 2 vol. Paris, Didot, 1848.
+    <li .auteur>
+      <span>JAMYN (AM.)#
+      . Œuvres poétiques, 2 vol. in-12, Paris, Patisson, 1577, édit. citée par LACURNE.
+    <li .auteur>
+      <span>JANSZOON (GUILLAUME)#
+      . Le Flambeau de la navigation, Amsterdam, 1620.
+    <li .auteur>
+      <span>JAUBERT (LE COMTE)#
+      . Glossaire du centre de la France, 2e édit. Paris, 1864, in-4°
+    <li .auteur>
+      <span>JEAN D'ARRAS#
+      . Mélusine, édit. JANNET.
+    <li .auteur>
+      <span>JEAN DE CONDÉ#
+      . Voy. BAUDOUIN DE CONDÉ.
+    <li .auteur>
+      <span>JEHAN DE MEUNG#
+      . Testament dans la Rose, t. IV. — Le Trésor, dans la Rose, t.  III.
+    <li .oeuvre>
+      <span>JOB#
+      . Voy. ROIS.
+    <li .auteur>
+      <span>JOINVILLE#
+      . Histoire de saint Louis, dans Hist. de France, t. XX, et aussi édit. de M. de Wailly, 1867. — Regrets de la mort de saint Louis, dans Mémoires de Jean sire de Joinville, publiés par Francisque Michel, Paris, 1858, in-12.
+    <li .oeuvre>
+      <span>JOURNAL#
+      . Journal du Voyage des grandes Indes, contenant tout ce qui s'y est fait et passé par l'escadre de S. M. envoyée sous le commandement de M. de la Haye, depuis son départ de la Rochelle au mois de mai 1670, Paris 1698, in-12.
+    <li .oeuvre>
+      <span>JOYES DE MARIAGE (LES QUINZE)#
+      , 2e édit. Jannet, 1857. Ouvrage attribué à Antoine de La Sale et rapporté à l'an 1450.
+    <li .auteur>
+      <span>JUBINAL#
+      . Nouveau Recueil de contes, dits, fabliaux, etc. 2 vol. in-8, Paris, 1839.
+    <li .auteur>
+      <span>JULLIEN (A.)#
+      . Topographie de tous les vignobles connus, 3e édit. Paris, 1832, in-12.
+    <li .auteur>
+      <span>JULLIEN#
+      . Cours supérieur de grammaire, Paris, 2 vol. in-8°, Hachette, 1849.
+    <li .auteur>
+      <span>JUVÉNAL DES URSINS#
+      . Histoire de Charles VI, 1 vol. in-f°, Paris 1653.
+
+  <h2 #lettre-K>K
+
+  <ul>
+    <li .auteur>
+      <span>KLINGLIN#
+      . Correspondance du général Klinglin, Paris, pluviôse, an VI.
+
+  <h2 #lettre-L>L
+
+  <ul>
+    <li .auteur>
+      <span>LABAT#
+      . Nouveau Voyage aux îles de l'Amérique, Paris 1722, in-12.
+    <li .auteur>
+      <span>LABBÉ (LOUISE)#
+      . Annales poétiques, depuis l'origine de la poésie française, Paris, Delalain, 1778, t. IV.
+    <li .auteur>
+      <span>LA BOÉTIE#
+      . Œuvres, éd. Feugère, Paris, 1846.
+    <li .auteur>
+      <span>LABORDE (LÉON DE)#
+      . Émaux, 2 vol. Paris, 1853. — Histoire de la gravure en manière noire, in-8, 1839, Paris.
+    <li .auteur>
+      <span>LA BRUYÈRE#
+      . Les Caractères de Théophraste, ou les moeurs de ce siècle, 2 vol. Paris, 1775.
+    <li .auteur>
+      <span>LA CHAPELLE#
+      . Zaïde, tragédie de la Chapelle.
+    <li .auteur>
+      <span>LA COLOMBIÈRE#
+      . Le vray théâtre d'honneur et de chevalerie, par Marc Vulson, sieur de la Colombière, Paris, 1648, 2 vol. in-fol, édit. citée par LACURNE.
+    <li .auteur>
+      <span>LACURNE#
+      . Voy. t. I, Préface, p. XXXIX.
+    <li .auteur>
+      <span>LA FAYETTE (Mme DE)#
+      . Œuvres complètes de mesdames de la Fayette et de Tencin, Paris, an XII (1840), 5 vol. in-8°, édit. citée par POUGENS.
+    <li .auteur>
+      <span>LA FONTAINE#
+      . Fables. — Contes. — Œuvres diverses, Paris, 1739, 3 vol. — Psyché, dans Œuvres diverses.
+    <li .auteur>
+      <span>LAFOSSE#
+      . Manlius, tragédie.
+    <li .auteur>
+      <span>LAGRANGE-CHANCEL#
+      . Athénaïs, Amasis, Alceste, Érigone, tragédies.
+    <li .auteur>
+      <span>LAHARPE#
+      . Cours de littérature, édit. le Dentu 1825, éd. citée par POUGENS. — Correspondance, 2e édit. Paris, 1804, 6 vol. in-8, citée par POUGENS.
+    <li .oeuvre>
+      <span>LAI D'IGNAURÈS#
+      , en vers, du XIIe siècle, publié par Renaut, suivi des lais de Melion et du Trot, en vers, du XIIIe siècle, publiés pour la première fois d'après deux manuscrits uniques, par L. J. N. Monmerqué et Francisque Michel, Paris, 1832, in-8.
+    <li .auteur>
+      <span>LAMARTINE#
+      . Œuvres complètes, 10 vol. Paris, 1837.
+    <li .auteur>
+      <span>LA MOTHE LE VAYER#
+      . De la Vertu des païens, in-4, Paris 1642. — Voy. ORATIUS TUBERO.
+    <li .auteur>
+      <span>LAMOTTE (HOUDARD DE LA)#
+      . Œuvres, Paris, 1854, 10 tomes en 11 vol. in-12.
+    <li .auteur>
+      <span>LANFRANC#
+      . La Syrurgie de maistre Lanfranc de Millan, de l'an 1377, ms. 1323, Bibl. nat.  Fonds français.
+    <li .auteur>
+      <span>LANOUE#
+      . Discours politiques et militaires, Bâle, 1587, in-4.
+    <li .auteur>
+      <span>LAPLACE#
+      . Exposition du système du monde, 3e éd. 2 vol. Paris, 1808.
+    <li .auteur>
+      <span>LA QUINTINYE#
+      . Instruction pour les jardins fruitiers et potagers, nouvelle édit. 2 vol.  in-4, Paris, 1739.
+    <li .auteur>
+      <span>LARCHEY#
+      . Excentricités du langage, 5e éd. Paris, 1865.
+    <li .auteur>
+      <span>LAROCHEFOUCAULD#
+      , Maximes et Réflexions morales, Paris, 1789 ; Mémoires, Cologne, 1662.
+    <li .auteur>
+      <span>LAURENT-PICHAT#
+      . Avant le jour, poésies, Paris, 1868.
+    <li .auteur>
+      <span>LAW (J.)#
+      . Dans la Collection des principaux économistes de Guillaumin, Paris, 1840 à 1848, 16 vol. in-8.
+    <li .auteur>
+      <span>LEBRUN (P.)#
+      . Œuvres, Paris, 1844.
+    <li .auteur>
+      <span>LEBRUN-ÉCOUCHARD#
+      . Œuvres, Paris, 4 vol. in-8°
+    <li .auteur>
+      <span>LECLERC#
+      . Des Journaux chez les Romains, Paris, 1838, in-8.
+    <li .auteur>
+      <span>LECOQ (HENRI)#
+      . La Vie des fleurs, Paris, Hachette, 1861, in-12.
+    <li .auteur>
+      <span>LEGGENDA#
+      . La leggenda di Vergogna. Bologne, 1869, dans Scelta di curiosità letterarie inedite o rare, Dispensa XCIX.
+    <li .auteur>
+      <span>LEGOARANT (B.)#
+      . Nouveau Dictionnaire critique de la langue française, Paris, 1858, 1 vol.  in-4.
+    <li .auteur>
+      <span>LEGOUVÉ (G.)#
+      . Le Mérite des femmes et autres poésies, par G. Legouvé, Paris, 1813.
+    <li .auteur>
+      <span>LE HÉRICHER#
+      . Histoire et glossaire du normand, de l'anglais et de la langue française, d'après la méthode historique, naturelle et étymologique, 3 vol. in-8, Paris, 1862.
+    <li .auteur>
+      <span>LEIBNITZ#
+      . Voy. ESPRIT.
+    <li .oeuvre>
+      <span>LE LOYAL SERVITEUR#
+      . La tres joyeuse plaisante et recreative hystoire composée par le loyal serviteur des faiz, gestes, triumphes et prouesses du bon chevalier sans paour et sans reprouche le gentil seigneur de Bayart, dans la collection Petitot.
+    <li .auteur>
+      <span>LE LOYER#
+      . Discours et histoires des Spectres, 1605, p. 805.
+    <li .auteur>
+      <span>LE MAOUT#
+      . Atlas élémentaire de botanique, Paris, 1846.
+    <li .auteur>
+      <span>LEMERCIER#
+      . Louis IX. — Richard et Jeanne Shore. — Démence de Charles VI.
+    <li .auteur>
+      <span>LEMIERRE#
+      . Barnevelt, tragédie, Guillaume Tell.
+    <li .auteur>
+      <span>LEMONTEY#
+      . Œuvres, 7 vol. Paris, 1829.
+    <li .auteur>
+      <span>LENFANT#
+      . Histoire du concile de Constance, Amsterdam, 1714, in-4.
+    <li .auteur>
+      <span>LE ROUX DE LINCY#
+      . Le Livre des proverbes français, précédé des Recherches historiques sur les proverbes français et leur emploi dans la littérature du moyen âge et de la Renaissance par M. Le Roux de Lincy, 2e éd. revue, corrigée et augmentée, Paris, Adolphe Delahays, 1859.
+    <li .auteur>
+      <span>LESAGE#
+      . Gil Blas, 4 vol. Paris, 1757. — La Vie de Guzman d'Alfarache, 3 vol. Paris, 1709.
+    <li .auteur>
+      <span>LESCARBOT#
+      . Histoire de la Nouvelle-France, Paris, 1618.
+    <li .auteur>
+      <span>LESNÉ#
+      . La Reliure, poëme didactique en six chants, précédé d'une idée analytique de cet art, suivi de notes historiques et critiques, et d'un Mémoire soumis à la société d'Encouragement, ainsi qu'au jury d'exposition de 1819, relatif aux moyens de perfectionnement propres à retarder le renouvellement des reliures.
+    <li .auteur>
+      <span>LE TOURNEUR#
+      . Clarisse Harlowe, traduction nouvelle, 9 vol. in-8, Genève, Paul Barde, 17851786.
+    <li .auteur>
+      <span>LETRONNE#
+      . Mélanges d'érudition et de critique historique, in-8°, Paris, Ducrocq.
+    <li .oeuvre>
+      <span>LETTRES#
+      . Lettres du roy Louis XII et du cardinal d'Amboise, 4 vol. in-8, Brusselle (sic), 1712, édit. citée par LACURNE. — Lettres de Mmes de Villars, de Coulanges, de la Fayette, etc. etc. Paris, chez Léopold Collin, rue Gît-le-Cœur, an XIII. Lettres de Henri IV : Recueil des lettres missives de Henri IV, publié par M. Berger de Xivrey, Paris 1843, 7 vol. in-4.
+    <li .auteur>
+      <span>LEVASSEUR#
+      . Cours d'économie politique, Hachette, 1868.
+    <li .auteur>
+      <span>LÉVÊQUE#
+      . La Science du beau, par Ch. Lévêque, 2 vol. in-8, Paris, A.  Durand, 1861.
+    <li .oeuvre>
+      <span>LIBRI PSALMORUM#
+      , versio antiqua gallica, una cum versione metrica, ed. Fr. Michel, Oxonii, 1860, in-8.
+    <li .auteur>
+      <span>LINGUET#
+      . Essai philosophique sur le monachisme, Paris, 1775.
+    <li .auteur>
+      <span>LIVET#
+      . La Grammaire française et les grammairiens français du XVIe siècle, Paris, 1859.
+    <li .oeuvre>
+      <span>LIVRE (LI) DE JOSTICE ET DE PLAIT#
+       ; publié par Rappetti, 1 vol. in-4°, Paris, 1850.
+    <li .oeuvre>
+      <span>LIVRE DES MÉTIERS#
+      . Règlements sur les arts et métiers de Paris, rédigés au XIIIe siècle et connus sous le nom du Livre de métiers d'Étienne Boileau, publiés par G. B.  Depping, Paris, 1837.
+    <li .oeuvre>
+      <span>LOIS DE GUILLAUME LE CONQUÉRANT#
+      , dans Chevallet, Origine et Formation de la langue française, t. I, p. 94.
+    <li .auteur>
+      <span>LOMÉNIE#
+      . Loménie de Brienne, Mémoires inédits, 2 vol. in-8, Paris, 1828, édit. citée par POUGENS.
+    <li .auteur>
+      <span>LOYSEL#
+      . Institutes coutumières d'Antoine Loysel, nouvelle édition, par MM. Dupin et Laboulaye, 2 vol. in-12. (Les chiffres indiquent des paragraphes.)
+
+  <h2 #lettre-M>M
+
+  <ul>
+    <li .oeuvre>
+      <span>MACHABÉES#
+      . Livres des Machabées, ms. Bibl. nat. MOUCHET, n° 9.
+    <li .auteur>
+      <span>MAINTENON#
+      . Lettres, Mémoires, etc. Amsterdam, 1757, in-12.
+    <li .auteur>
+      <span>MALEBRANCHE#
+      . Œuvres complètes, 2 vol. in-4°, Paris, 1837.
+    <li .auteur>
+      <span>MALFILÂTRE#
+      . Œuvres, Paris, 1822.
+    <li .auteur>
+      <span>MALHERBE#
+      . Œuvres, avec les observations de Ménage, 1666. — Les Lettres de Fr. Malherbe, Paris, 1645.
+    <li .auteur>
+      <span>MALLET (GILLES)#
+      . Inventaire des livres de la Bibliothèque du Louvre fait en 1773, par Gilles Mallet, Paris, 1836.
+    <li .auteur>
+      <span>MALTE-BRUN#
+      . Précis de Géographie univer selle, Paris, 1836.
+    <li .oeuvre>
+      <span>MANUEL#
+      . Manuel de reliure, Roret, 1827.
+    <li .oeuvre>
+      <span>MANUSCRIT#
+      . Mss. français, n° 1327, in-fol, Bibl. nat. de Paris. — Mss. de Turin, liv.  IV, 35 Sur les Urines, XVe siècle, communiqué pa M. Daremberg.
+    <li .auteur>
+      <span>MARC POL#
+      . Le livre de Marco Polo, publié pa M. G. Pauthier, Paris, 1865.
+    <li .auteur>
+      <span>MARIE DE FRANCE#
+      . Poésies de Marie de France, publiées par Roquefort, Paris, 1820, 2 vol.  in-8.
+    <li .auteur>
+      <span>MARIVAUX#
+      . Œuvres de Marivaux, nouvelle édition par Duviquet, Paris, 1835.
+    <li .auteur>
+      <span>MARMONTEL#
+      . Œuvres, Paris, 1787, 17 vol. in-8, édit. citée par POUGENS.
+    <li .auteur>
+      <span>MAROLLES (M#
+      . DE) (XVIIe siècle). Le Livre des peintres, etc. Paris 1865.
+    <li .auteur>
+      <span>MAROT#
+      . Œuvres de Clément Marot, avec les ouvrages de Jean Marot et de Michel Marot, 6 vol. in-12, la Haye 1731.
+    <li .auteur>
+      <span>MARQFOY (G.)#
+      . Des Réformes nécessaires en télégraphie, Paris, 1866.
+    <li .auteur>
+      <span>MARTIAL D'AUVERGNE#
+      . Les Arrêts d'amours avec l'amant rendu cordelier à l'observance d'amours, par Martial d'Auvergne, dit de Paris, Paris, GANDOUIN, 1731, in-12. — Poésies, Paris, 1724, 2 vol. in-12 (Vigiles de Charles VII), édition citée par LACURNE.
+    <li .auteur>
+      <span>MASSILLON#
+      . Œuvres, 15 vol. Lyon, 1810.
+    <li .auteur>
+      <span>MASSON#
+      . Les Helvétiens en huit chants, Paris, an VIII.
+    <li .auteur>
+      <span>MATHOIS#
+      . Le Mathois, Recueil anonyme de poésies, 1614.
+    <li .auteur>
+      <span>MAURICE (CHARLES)#
+      . Histoire anecdotique du théâtre, de la litlérature, etc. 2 vol.  in-8, chez Plon, 1856.
+    <li .auteur>
+      <span>MELION#
+      . Voy. LAI D'IGNAURÈS.
+    <li .auteur>
+      <span>MELON (J. F.)#
+      . Essai politique sur le Commerce. Collection des principaux économistes, Guillaumin, Paris, 1840-1848, 16 vol. in-8.
+    <li .oeuvre>
+      <span>MÉMOIRES de physique et de chimie de la Société d'Arcueil#
+      . — 
+      <span>Mémoires inédits sur les Artistes français#
+      , par MM. L. Dussieux, E. Soulié, etc. Paris, J. B. Dumoulin, 1854. — 
+      <span>Mémoires pour servir à l'Histoire universelle de l'Europe#
+      , Nîmes, 1783, 2 vol.
+    <li .auteur>
+      <span>MÉNAGE#
+      . Dictionnaire étymologique, ou origines de la langue françoise, Paris, 1694, in-f°.
+    <li .auteur>
+      <span>MENARD#
+      . Histoire de messire Bertrand du Guesclin, escrite en prose en l'an 1387 et nouvellement mise en lumière par M. Claude Menard, Paris, Nivelle, 1618, in-4, édit.  citée par LACURNE.
+    <li .auteur>
+      <span>MÉON#
+      . Nouveau Recueil de fabliaux et Contes inédits des poëtes français des XIIe, XIIIe, XIVe et XVe siècles, publiés par M. Méon, 2 vol. in-8, Paris, 1823, in-f°.
+    <li .auteur>
+      <span>MERAUGIS#
+      . Voy. RAOUL DE HOUDENC.
+    <li .auteur>
+      <span>MERCIER#
+      . Néologie et vocabulaire des mots nouveaux, 1801.
+    <li .auteur>
+      <span>MÉRÉ#
+      . Les Œuvres de M. le chevalier de Méré, 3 vol. in-12, Amsterdam, 1692.
+    <li .auteur>
+      <span>MÉRIMÉE#
+      . Colomba, éd. CHARPENTIER, 1842.
+    <li .auteur>
+      <span>MERLET#
+      . L'abrégé des bons fruits, Paris, 1690.
+    <li .oeuvre>
+      <span>MERLIN#
+      . Ms. français, n° 7170, Bibl. nat.
+    <li .auteur>
+      <span>MERSENNE#
+      . Harmonie universelle, in-f°, Paris, 1636.
+    <li .auteur>
+      <span>MEYER (P.)#
+      . Rapports à M. le ministre de l'instruction publique, Paris, 1871.
+    <li .auteur>
+      <span>MÉZERAY#
+      . Abrégé de l'histoire de France, t. IV, p. 584, Amst. 1688.
+    <li .auteur>
+      <span>MICHEL (FR)#
+      . Histoire du commerce et de la navigation à Bordeaux, etc. Bordeaux, 1868-1870, 2 volumes in-8°. — Dictionnaire d'argot.
+    <li .auteur>
+      <span>MICHELET#
+      . Histoire de la Révolution française, Paris, 1847, 7 vol. in-8°. — La Régence, 1 vol. in-8°, Paris, 1863.
+    <li .auteur>
+      <span>MIGNARD#
+      . Histoire des principales fondations religieuses du bailliage de la Montagne de Bourgogne, Paris, 1864.
+    <li .auteur>
+      <span>MILLER (E.)#
+      . Pierre Taisand, Lettres inédites de Bossuet, de Mlle de Scudéry, Paris, 1869.
+    <li .auteur>
+      <span>MIRABEAU#
+      . Collection complète des travaux de M. Mirabeau, l'aîné, à l'Assemblée nationale, publiée par Méjan, 5 vol. in-8°, Paris, 1791. — Lettres originales de Mirabeau, écrites du donjon de Vincennes, 4 vol. in-12, éd. citée par POUGENS.
+    <li .oeuvre>
+      <span>MIRACLES#
+      . Les Miracles Saint Loys, dans Historiens de la France, t. XX.
+    <li .auteur>
+      <span>MIRAULMONT#
+      . De l'origine et establissement du parlement et autres jurisdictions royalles estans dans l'enclos du Palais royal de Paris, Paris, 1612, in-8°, éd. citée par LACURNE.
+    <li .oeuvre>
+      <span>MIROIR#
+      . Le Miroir du temps passé, à l'usage du présent, à tous bons PP. religieux et vrais catholiques non passionnez, 1635, in-12.
+    <li .oeuvre>
+      <span>MODE#
+      . Discours sur la mode. Paris, 1613, réimprimé par Eusèbe Castaigne, Angoulême, 1851.
+    <li .oeuvre>
+      <span>MODUS#
+      . Le livre du roi modus, petit in-4° chez Jehan Trepperel.
+    <li .auteur>
+      <span>MOHL#
+      . Rapport annuel fait à la Société asiatique dans sa séance du 29 juin 1864, par M. J. Mohl.
+    <li .auteur>
+      <span>MOLIÈRE#
+      . Œuvres complètes de Molière, édition variorum avec les variantes, les pièces et fragments de pièces retrouvés dans ces derniers temps, par Ch. Louandre, 3 vol. in-12. Paris, 1852. Cette édition contient la Jalousie du barbouillé, le Médecin volant, et la scène supprimée dans le Don Juan.
+    <li .auteur>
+      <span>MOLLIEN#
+      . Mémoires d'un ministre du trésor public, 1780-1815, Paris, 1845.
+    <li .auteur>
+      <span>MONSTRELET#
+      . Chroniques d'Engerran de Monstrelet, 2 vol. in-f°, Paris, 1572.
+    <li .auteur>
+      <span>MONTAIGLON (ANATOLE DE)#
+      . Mémoires pour servir à l'histoire de l'Académíe royale de peinture et de sculpture, 2 vol. petit format (16 pages à la feuille), Paris, P. Jannet, 1853
+    <li .auteur>
+      <span>MONTAIGNE#
+      . Essais de Michel, seigneur de Montaigne, 4 vol. in-12, Paris, Didot, an x (1802).
+    <li .auteur>
+      <span>MONTESQUIEU#
+      . Œuvres, 7 vol. Amsterdam, 1785. 1826.
+    <li .auteur>
+      <span>MONTFAUCON DE VILLARS#
+      . Entretiens du comte de Gabalis, Amsterdam, in-12, 1715.
+    <li .auteur>
+      <span>MONTFLEURY#
+      . Théâtre, 3 vol. Paris, 1739.
+    <li .oeuvre>
+      <span>MOYEN DE PARVENIR#
+      . Édit. à Chinon de l'imprimerie de Fr. Rabelais, l'année pantagruélienne in-12 (éd. de Hollande), édition citée par LACURNE.
+    <li .auteur>
+      <span>MUSSET (ALFRED DE)#
+      . Poésies, chez Charpentier, 1859.
+    <li .auteur>
+      <span>MUSSET-PATHAY#
+      . Contes historiques, Paris.
+    <li .oeuvre>
+      <span>MYSTÈRE (LE) DU SIÉGE D'ORLÉANS#
+      , publié par Guessard et de Certain, Paris, 1862.
+    <li .oeuvre>
+      <span>MYSTÈRES INÉDITS DU XVe SIÈCLE#
+      , publiés par A Jubinal, 2 vol. in-8. Paris, 1837.
+
+  <h2 #lettre-N>N
+
+  <ul>
+    <li .auteur>
+      <span>NAUDÉ (GABRIEL)#
+      . Considérations politiques sur les coups d'Estat, par Gabriel Naudé, Parisien, sur la copie de Rome, 1667. — Apologie de tous les grands personnages faussement soupconnés de magie, Paris, 1625.
+    <li .auteur>
+      <span>NEUFCHATEAU (FR.)#
+      . Fables, Paris. 1815.
+    <li .auteur>
+      <span>NICOLE#
+      . Essais de Morale contenus en divers traités, Paris, Didot, 1723, 14 vol. in-12. — Pensées, Paris 1815, in-18.
+    <li .auteur>
+      <span>NOUGUIER#
+      . L'Odyssée à la mode, Orange, 1650.
+    <li .auteur>
+      <span>NOVERRE#
+      . Lettres sur la danse et sur les ballets, Stuttgard, 1760, in-12, éd. citée par POUGENS.
+
+  <h2 #lettre-O>O
+
+  <ul>
+    <li .oeuvre>
+      <span>OLIM (LES)#
+      , publiés par Beugnot, 3 vol, in-4°, Paris, 1839.
+    <li .auteur>
+      <span>OLIVIER DE LA MARCHE#
+      . Mémoires, 3e éd. Bruxelles, 1616, 1 vol. in-4°, éd. citée par LACURNE.
+    <li .oeuvre>
+      <span>ORATIUS TUBERO#
+      , Dialogues, 2 vol. Francfort, 1716.
+    <li .oeuvre>
+      <span>ORDONNANCE de Louis XIV sur le fait des eaux et forêts#
+      , nouvelle édition, Paris, 1765.
+    <li .auteur>
+      <span>ORESME#
+      . Les Éthiques d'Aristote, mises en françois et commentées par Nic. Oresme, Paris, 1488, in-f°.
+
+  <h2 #lettre-P>P
+
+  <ul>
+    <li .oeuvre>
+      <span>PACIFICATEUR#
+      . Le Pacificateur ou l'anti-soldat, brochure publiée à l'occasion de la paix de Vervins, se trouve à la bibliothèque de Sainte-Geneviève.
+    <li .auteur>
+      <span>PALISSOT#
+      . Œuvres complètes, 5 vol. Paris, 1809.
+    <li .auteur>
+      <span>PALISSY#
+      . Œuvres complètes de Bernard Palissy, éd. conforme aux textes originaux imprimés du vivant de l'auteur ; avec des notes et une notice historique par Paul-Antoine Cap, 1 vol. in-18° jésus (format Charpentier) ou grand in-12 carré, Paris, J. J.  Dubochet et Cie, éditeurs, rue de Seine 33, 1844.
+    <li .auteur>
+      <span>PALSGRAVE#
+      . Éclaircissements de la Grammaire française, suivis de la Grammaire de Giles du Guez, publiés par Génin, Paris, 1857.
+    <li .auteur>
+      <span>PANARD#
+      . Œuvres, 4 vol. in-12, Paris, 1763, éd. citée par POUGENS.
+    <li .oeuvre>
+      <span>PAPIERS saisis à Bareuth#
+      , Paris, ventôse, an x.
+    <li .auteur>
+      <span>PARÉ#
+      . Œuvres d'Ambroise Paré, éd. Malgaigne, 3 vol. in-8, Paris, 1840.
+    <li .oeuvre>
+      <span>PARIS SOUS PHILIPPE LE BEL#
+      , publié par Gérard, Paris, 1837.
+    <li .auteur>
+      <span>PARISET (ERNEST)#
+      . Histoire de la soie, 1re et 2e partie.
+    <li .auteur>
+      <span>PARMENTIER#
+      . Traité théorique et pratique sur la culture des graines, Paris an x (1802), 2 vol. in-8°.
+    <li .oeuvre>
+      <span>PARTHONOPEUS DE BLOIS#
+      , publié par Crapelet, Paris, 1834, 2 vol. in-8°.
+    <li .auteur>
+      <span>PASCAL#
+      . Traité de l'équilibre des liqueurs, 2e édition, Paris, 1664. — Pensées, 2e édition Havet, 2 vol. Paris, 1866. — Pensées, fragments et lettres, édition Faugère, 2 vol. 1844. — Œuvres complètes, éd. Lahure, 1860.
+    <li .auteur>
+      <span>PASQUIER#
+      . Monophile, dans Œuvres mêlées, 3 vol. in-8°, Paris, 1717, éd. citée par LACURNE — Œuvres mêlées, 3 vol. Paris 1619, édition citée dans LACURNE. — Lettres, 3 vol. in-12, Paris, 1619.
+    <li .oeuvre>
+      <span>PASSION#
+      . La Passion de nostre Seigneur Jesus Christ, ms. du XIIIe siècle ou du commencement du XIVe, Bibliothèque de St-Brieuc (Côtes-du-Nord). La Passion commence au f° 45.
+    <li .auteur>
+      <span>PASSY (LOUIS)#
+      . Fragment d'histoire littéraire à propos d'un nouveau manuscrit de chansons françaises, Paris 1859.
+    <li .auteur>
+      <span>PASTEUR (L.)#
+      . Études sur le vin, Imprimerie imp. 1866, in-8°.
+    <li .oeuvre>
+      <span>PATELIN#
+      . Maistre Pierre Patelin, publié par Jenin. Paris, 1854, in-8.
+    <li .oeuvre>
+      <span>PECHANTRÉ#
+      , auteur de Géta et de la Mort de Néron, tragédies.
+    <li .auteur>
+      <span>PEIGNÉ DELACOURT#
+      . La Chasse à la haie, Paris, 1858, in-4°.
+    <li .auteur>
+      <span>PELLISSON#
+      . Lettres historiques, 3 vol. in-12, Paris, 1729, édit. citée par POUGENS. — Histoire de l'Académie françoise, par Pellisson et d'Olivet, 2 vol. in-12, Paris, 1743.
+    <li .oeuvre>
+      <span>PERCEFOREST#
+      , Paris 1531, 6 vol. in-f°.
+    <li .auteur>
+      <span>PERRAULT#
+      . Les Dix livres d'architecture de Vitruve, corrigez et traduits nouvellement en français avec des notes et des figures, 2e édition, Paris, 1684, in-f°.
+    <li .auteur>
+      <span>PERRIN#
+      . Poésies, Paris, 1661, in-12, éd. citée par LACURNE.
+    <li .auteur>
+      <span>PERROQUET#
+      , prêtre. La Vie et le martyre du docteur illuminé le bienheureux Raymond Lulle, Vendosme, 1667, in-12.
+    <li .auteur>
+      <span>PERROT D'ABLANCOURT#
+      . Lucien, de la traduction de M. Perrot d'Ablancourt, Paris, 1707. 3 vol.
+    <li .auteur>
+      <span>PETIS DE LA CROIX#
+      . Les Mille et un jours, Paris, 1766.
+    <li .auteur>
+      <span>PETIT (L.)#
+      , de Rouen. Satires générales, 1686.
+    <li .oeuvre>
+      <span>PETIT JEHAN DE SAINTRÉ#
+      , 3 vol. in. 12, Paris, 1724, éd. citée dans LACURNE.
+    <li .auteur>
+      <span>PETIT-RADEL#
+      . Recherches sur les monuments cyclopéens, 1 vol. in-8°, Paris, 1841.
+    <li .auteur>
+      <span>PEYSSONNEL#
+      . Traité sur le commerce de la mer Noire, Paris, 1787.
+    <li .auteur>
+      <span>PHILIPPE DE REINE#
+      . Voy. BLONDE ET JEHAN.
+    <li .auteur>
+      <span>PHILON#
+      . Les Œuvres de Philon, juif, Paris, 1611, in-12.
+    <li .auteur>
+      <span>PICHON (PIERRE)#
+      . Libertés de l'Église Gallicane, rédigées en 83 articles, dans Loysel, Institutes coutumières, édition de MM. DUPIN et LABOULAYE.
+    <li .auteur>
+      <span>PIERRE (ISIDORE)#
+      . Études sur les engrais de mer, Paris, sans date.
+    <li .auteur>
+      <span>PIHAN#
+      . Dictionnaire étymologique des mots de la langue française dérivés de l'arabe, du persan ou du turc, Paris, 1866.
+    <li .auteur>
+      <span>PIRON#
+      . Œuvres complètes d'Alexis Piron, Paris, 1776, 7 vol. in-8.
+    <li .oeuvre>
+      <span>POIRE (ROMAN DE LA)#
+      . Ms. n° 7995, Bibl. nat.
+    <li .auteur>
+      <span>POISSON#
+      . Œuvres, Paris, 1679, in-12.
+    <li .auteur>
+      <span>POUGENS#
+      . Voy. t. I, Préface, p. XXXIX.
+    <li .auteur>
+      <span>POUSSIN#
+      . Collection de lettres de Nicolas Poussin, Paris, 1824.
+    <li .oeuvre>
+      <span>PRISE D'ORENGE (LA)#
+      . Voy. GUILLAUME D'ORENGE.
+    <li .auteur>
+      <span>PROUDHON#
+      . Du Principe fédératif, Librairie internationale, in-12, 1868. — Confessions d'un révolutionnaire, Librairie internationale, Paris, in12, 1868.
+    <li .oeuvre>
+      <span>PSAUTIER#
+      . Psautier, ms. français, Bibliothèque Mazarine, n° 258.
+
+  <h2 #lettre-Q>Q
+
+  <ul>
+    <li .auteur>
+      <span>QUATREMÈRE DE QUINCY#
+      . Lettres écrites de Londres à Canova.
+    <li .auteur>
+      <span>QUICHERAT#
+      . Addenda lexicis latinis, Paris, 1862, in-8.
+    <li .auteur>
+      <span>QUINAULT#
+      . Le Théâtre de M. Quinault, 5 vol. Paris, 1715.
+
+  <h2 #lettre-R>R
+
+  <ul>
+    <li .auteur>
+      <span>RABELAIS#
+      . Ed. d'Amsterdam, 1711, 4 vol. in-12, avec les notes de Leduchat, éd. citée par LACURNE. — Les Epistres de maistre François Rabelais escrites pendant son voyage en Italie, Paris, 1651.
+    <li .auteur>
+      <span>RACINE (J.)#
+      . Œuvres complètes, 4 vol. Paris, 1807.
+    <li .auteur>
+      <span>RACINE (L.)#
+      . La Religion, poëme, suivi du poëme de la Grâce, Paris, 1819.
+    <li .oeuvre>
+      <span>RAOUL DE CAMBRAI#
+      , Chanson de geste, publiée par Leglay, Paris, 1840.
+    <li .oeuvre>
+      <span>RAOUL DE HOUDENC#
+      , Meraugis de Portlesguez, publié par Michelant, Paris, 1869, XIIIe siècle.
+    <li .auteur>
+      <span>RAYNAL#
+      . Histoire philosophique, éd. de Genève, 1780, in-8°
+    <li .auteur>
+      <span>RAYNOUARD#
+      . États de Blois, tragédie.
+    <li .oeuvre>
+      <span>RECUEIL DE FARCES#
+      , sotties et moralités du XVe siècle, réunies pour la première fois et publiées avec des notices et des notes, par P. L. Jacob, bibliophile (Paris, A.  Delahays, 1859). Ce recueil contient : Me Pierre Pathelin, le Nouveau Pathelin, le Testament de Pathelin, Moralité de l'Aveugle et du Boiteux, la Farce du Munyer, la Condamnacion de Bancquet.
+    <li .auteur>
+      <span>REGNARD#
+      . Œuvres, 4 vol. Paris, 1810.
+    <li .auteur>
+      <span>RÉGNIER#
+      . Les Épîtres et autres œuvres, Londres, 1730.
+    <li .auteur>
+      <span>REINAUD#
+      . Du feu grégeois, des feux de guerre et des origines de la poudre à canon, par M. Reinaud et M. Favé, Paris, 1845.
+    <li .oeuvre>
+      <span>REMONTRANCES#
+      , Les remontrances de la complainte de nature à l'alchymiste errant, dans la Rose, t. IV.
+    <li .auteur>
+      <span>RÉMUSAT (CH. DE)#
+      . Nouvelles recherches concernant l'influence de la scolastique sur la langue française, dans VERGÉ, Comptes rendus des séances de l'Acad. des sciences mor.  1854, p. 351-376.
+    <li .oeuvre>
+      <span>RENART#
+      . Le Roman du Renart, publié par Méon, 4 vol.
+    <li .oeuvre>
+      <span>RÉSURRECTION#
+      . La Résurrection du Sauveur, fragment d'un mystère inédit, publié par Achille Jubinal, Paris, 1834, le ms. est du XIIIe siècle.
+    <li .auteur>
+      <span>RETZ#
+      . Mémoires du cardinal de Retz, publiés par Champollion-Figeac et Champollion fils, Paris, 1836, 2 vol.
+    <li .auteur>
+      <span>REYBAUD (L.)#
+      . Jérôme Paturot à la recherche d'une position sociale, 2 vol. in-12, 1857.
+    <li .auteur>
+      <span>RIVAROL#
+      . Dictionnaire classique de la langue française, Paris, 1828.
+    <li .auteur>
+      <span>ROBERT DU TRIEZ#
+      . Les Ruses des esprits malins, Lille, 1563.
+    <li .oeuvre>
+      <span>ROIS#
+      . Les Quatre livres des rois, suivis d'un fragment de moralités sur Job, et d'un choix de sermons de saint Bernard, publiés par Leroux de Lincy, Paris, 1841.
+    <li .auteur>
+      <span>ROLLIN#
+      . Traité des études, Avignon, 1808. — L'Histoire ancienne est citée d'après POUGENS.
+    <li .oeuvre>
+      <span>ROMANCERO FRANÇAIS#
+      , par M. Paulin-Paris, Paris, 1833.
+    <li .oeuvre>
+      <span>RONCISVALS#
+      , mis en lumière, par Bourdillon, Paris, 1841.
+    <li .auteur>
+      <span>RONSARD#
+      . Les Œuvres de Ronsard, Paris 1623, en deux tomes in-f°.
+    <li .oeuvre>
+      <span>ROSE#
+      . Roman de la Rose, publié par Méon, 4 vol.
+    <li .auteur>
+      <span>ROUBIN#
+      . Œuvres mêlées, Toulouse, 1716, in-8°.
+    <li .auteur>
+      <span>ROULLEAUX (MARCEL)#
+      . Fragments économiques, Paris, 1865.
+    <li .auteur>
+      <span>ROUSSEAU (J. B.)#
+      . Œuvres de J. B. Rousseau, nouvelle édition, 5 vol. in-8, Paris, 1820.
+    <li .auteur>
+      <span>ROUSSEAU (J. J.)#
+      . Œuvres complètes, édition de MUSSET-PATHAY, Paris, 1824.
+    <li .auteur>
+      <span>ROUSSET#
+      . Correspondance de Louis XV et du Maréchal de Noailles, publiée par Camille Rousset, Paris, 1865.
+    <li .auteur>
+      <span>ROYOU#
+      . Phocion, tragédie.
+    <li .auteur>
+      <span>ROZIER#
+      . Rozier historial de France, Paris, 1522, 1 vol. in — f°. Le livre fut fait par ordre de Louis XI.
+    <li .auteur>
+      <span>RULHIÈRES#
+      . Œuvres posthumes, Paris, 1819, 4 vol. in-12.
+    <li .auteur>
+      <span>RUTEBEUF#
+      . Œuvres, recueillies par Jubinal, 2 vol. Paris, 1839.
+
+  <h2 #lettre-S>S
+
+  <ul>
+    <li .oeuvre>
+      <span>SAINT ALEXIS#
+      . Cité sur une copie communiquée par M. Gaston Paris, qui depuis en a fait une édition : La Vie de saint Alexis, poëme du XIe siècles, et renouvellements des XIIe, XIIIe et XIVe siècles, publiés par Gaston Paris et Léopold Pannier, Paris, 1872, in-8.
+    <li .auteur>
+      <span>SAINT-ANDRÉ (DE)#
+      . Lettres au sujet de la magie, des maléfices et des sorciers, Paris, Despilly, in-12, 1725.
+    <li .auteur>
+      <span>SAINTE-BEUVE#
+      . Port-royal, Paris, 3e éd. Hachette, 1867, 6 vol. — Chateaubriand et son groupe littéraire, sous l'empire, 2 vol. in-8°, Paris, 1861.
+    <li .auteur>
+      <span>SAINT-ÉVREMOND#
+      . Œuvres de M. de SaintÉvremond, publiées sur des manuscrits de l'auteur, 7 vol. in-12, Londres 1721.
+    <li .auteur>
+      <span>SAINT-GELAIS#
+      . Œuvres poétiques, Paris, 1709, in-12. Le numéro indique la pièce et il est entre parenthèses, parce que dans l'édition les pièces ne sont pas numérotées.
+    <li .auteur>
+      <span>SAINT-GLAS (abbé de Saint-Ursans)#
+      . Contes nouveaux, en vers, Paris, 1682, in-12.
+    <li .auteur>
+      <span>SAINT-JULIEN#
+      . Meslanges historiques, Lyon, 1589, éd. citée par LACURNE.
+    <li .auteur>
+      <span>SAINT-LAMBERT#
+      . Saisons, Amsterdam, 1777.
+    <li .auteur>
+      <span>SAINT-PIERRE (L'ABBÉ DE)#
+      . Œuvres, 15 vol. Utrecht, 1713.
+    <li .auteur>
+      <span>SAINT-SIMON#
+      . Mémoires complets et authentiques du duc de Saint-Simon, nouvelle édition, 40 vol in-12, Paris 1842 ; le premier chiffre indique le chapitre ; le second, la page.
+    <li .auteur>
+      <span>SAINT-SIMON (HENRI DE)#
+      . Œuvres choisies, Bruxelles, 1859,
+    <li .auteur>
+      <span>SANLECQUE#
+      . Poésies, Harlem, 1726.
+    <li .auteur>
+      <span>SANSON (N.)#
+      d'Abbeville. L'Amérique en plusieurs cartes et en divers traités de géographie et d'histoire, Paris 1657, petit in-4°.
+    <li .auteur>
+      <span>SARPI#
+      . Histoire du concile de Trente, de Fra Paolo Sarpi, trad. de Le Courayer, 2 vol.  in-4°, Amsterdam, 1736.
+    <li .auteur>
+      <span>SARRASIN#
+      . Lettres de Jean Pierre Sarrasin, sur la première croisade de saint Louis dans Mémoires de Jean, sire de Joinville, publiées par Francisque Michel, Paris, 1858, in-12.
+    <li .oeuvre>
+      <span>SATIRE MÉNIPPÉE#
+      . Toutes les éditions données à Ratisbonne chez les héritiers de Mathias, depuis 1709 jusqu'en 1752.
+    <li .auteur>
+      <span>SAURIN#
+      . Spartacus, tragédie.
+    <li .auteur>
+      <span>SAUSSURE#
+      . Voyages dans les Alpes, Neuchâtel, 1794, in-8°.
+    <li .auteur>
+      <span>SAUVAL#
+      . Histoire de Paris, Paris, 1733, in-f°, édit. citée par LACURNE.
+    <li .oeuvre>
+      <span>SAXONS#
+      . La chanson des Saxons, par Jean Bodel, publiée par Fr. Michel, 2 vol. Paris, 1839
+    <li .auteur>
+      <span>SCARRON#
+      . Œuvres, 7 vol. in-8°, Paris, Bastin, 1786, éd. citée par POUGENS. — Le Virgile travesti en vers burlesques de M. Scarron, 2vol. in-12, Paris, 1705.
+    <li .auteur>
+      <span>SCHELER#
+      . Lexicographie latine du XIIe et du XIIIe siècle, Leipzig, 1867. — Notice et extraits sur deux manuscrits français de la Bibliothèque royale de Turin, Bruxelles, 1867. — Glossaire roman-latin du XVe siècle (ms. de la bibliothèque de Lille), annoté par M. Aug. Scheler, Anvers, 1865.
+    <li .auteur>
+      <span>SCUDÉRY (Mlle DE)#
+      . Les Conversations sur divers sujets, par Mlle de Scudéry, 4e éd.  Amsterdam, 1685, in-18.
+    <li .auteur>
+      <span>SÉGUR#
+      . Histoire de Napoléon et de la grande armée en 1812, Paris, 1834, 2 vol. in-12.
+    <li .oeuvre>
+      <span>SENEFIANCE#
+      . Senefiance de l'Alphabet, dans Jubinal, t. II, p. 276.
+    <li .oeuvre>
+      <span>SERMENTS DE 842#
+      , dans CHEVALLET, Origine et formation de la langue française, t. I, p. 83
+    <li .auteur>
+      <span>SERRES (O. DE)#
+      . Théâtre d'agriculture et mesnage des champs, par O. DE SERRES, seigneur de Pradel, 3e éd. revue et augmentée par l'auteur, Paris, 1605, chez Abraham Sangrain, in-4°.
+    <li .auteur>
+      <span>SÉVIGNÉ#
+      . Lettres, édit. de 1735 (c'est celle qui est citée par chiffres arabes) ; édit. Régnier, 14 vol. Hachette, 1862.
+    <li .auteur>
+      <span>SICILLE#
+      , hérault d'Alphonse V, roi d'Aragon. Le Blason des couleurs en armes, livrées et devises, publié et anoté par H. Cocheris, Paris, 1860, in-12 ; Paris, 1614, in-8°, édition citée par LACURNE.
+    <li .auteur>
+      <span>SISMONDI#
+      . Lettres inédites, 1863.
+    <li .oeuvre>
+      <span>SONGE (LE) du Vergier#
+      , in-4°, chez Jehan Petit.
+    <li .auteur>
+      <span>SPALLANZANI#
+      , Voyages dans les deux Siciles, trad. française, 6 vol. in-8°, Paris, an VIII.
+    <li .auteur>
+      <span>SPON (J.)#
+      . Voyages d'Italie, 1678, 3 vol. in -12.
+    <li .auteur>
+      <span>STAAL (Mme DE)#
+      . Mémoires écrits par elle-même, 3 vol. Londres, 1755, in-12.
+    <li .auteur>
+      <span>STEDMAN (J. G.)#
+      . Voyages à Surinam, trad. française, 3 vol. Paris, an VII.
+    <li .auteur>
+      <span>STEVIN (SIMON)#
+      . Œuvres mathématiques, 2 vol. in-f°, Leyde, 1634.
+    <li .oeuvre>
+      <span>STRAPAROLE (NUITS DE)#
+      . Éd. de 1726 (sans lieu), 2 vol. in-12 ; c'est la traduction de Pierre de Larivey et de Jean Louveau, l'édit. citée par LACURNE.
+    <li .auteur>
+      <span>SULLY#
+      . Oeconomies, éd. in-12, Amsterdam, 1725 (Trévoux), éd. citée dans LACURNE.
+
+  <h2 #lettre-T>T
+
+  <ul>
+    <li .auteur>
+      <span>TAILLIAR#
+      . Recueil d'actes des XIIe et XIIIe siècles, en langue romane et wallonne, Douai, 1849, in-8°.
+    <li .auteur>
+      <span>TENON#
+      . Mémoires sur les hôpitaux de Paris, Paris, 1788, in-4°
+    <li .oeuvre>
+      <span>THÉÂTRE FRANÇAIS au moyen âge#
+      , publié d'après les manuscrits de la Bibliothèque du roi, par MM. Monmerqué et Francisque Michel, Paris, 1839.
+    <li .auteur>
+      <span>THÉOPHILE#
+      . Œuvres, Lyon, 1668, éd. citée par POUGENS. Œuvres, Paris, 1662, 2 vol. in-12, éd. citée par LACURNE.
+    <li .oeuvre>
+      <span>THEOPHILUS#
+      , dans Rutebeuf, éd. JUBINAL, t. II, p. 269-327.
+    <li .auteur>
+      <span>THIBAUT IV (comte de Champagne)#
+      . Chansons, Reims, 1851.
+    <li .auteur>
+      <span>THOINOT ARBEAU (TABOUROT)#
+      . Orchesographie, in-4°, Langres, 1596.
+    <li .oeuvre>
+      <span>THOMAS MARTYR#
+      . La Vie de saint Thomas le martyr, publiée par M. Bekker, et présentée à l'Académie des sciences de Berlin (Philos. histor.  Abhandl. 1838).
+    <li .auteur>
+      <span>THUROT (CHARLES)#
+      . De l'organisation de l'enseignement dans l'Université de Paris au moyen âge, Paris, 1850.
+    <li .auteur>
+      <span>TORCY#
+      . Mémoires pour servir à l'histoire des négociations depuis le traité de Riswick jusqu'à la paix d'Utrecht, Lahaye, 1756, 3 vol.  in-12.
+    <li .auteur>
+      <span>TOUGARD (A.)#
+      . Une page d'histoire locale et littéraire au moyen âge, extrait de la Revue de la Normandie, août 1870.
+    <li .oeuvre>
+      <span>TRIOMPHE DES CARMES (LE)#
+      , Poëme du XIVe siècle, publié par Leroy et Dinaux, Valenciennes, 1834.
+    <li .auteur>
+      <span>TRIORS (OD. DE)#
+      . Joyeuses recherches de la langue tolosane, 2e éd.  Paris, Jannet, 1847.
+    <li .oeuvre>
+      <span>TRISTAN L'HERMITE de l'Académie française#
+      , auteur de Panthée, de la Mort de Chrispe, de Marianne.
+    <li .oeuvre>
+      <span>TROT#
+      . Lai du trot. Voy. LAI D'IGNAURÈS.
+    <li .auteur>
+      <span>TRUBLET (L'ABBÉ)#
+      . Mémoires pour servir à l'histoire de la vie et des ouvrages de M. de Fontenelle, 2e éd. Amsterdam, 1759.
+
+  <h2 #lettre-V>V
+
+  <ul>
+    <li .auteur>
+      <span>VADÉ#
+      . La Pipe cassée, 4e éd. Paris, 1755, in-8°.
+    <li .auteur>
+      <span>VALENCIENNES (HENRI DE)#
+      . Continuation de l'histoire de la Conquête de Constantinople dans Villehardouin, éd. de Paulin Paris, Paris, 1838.
+    <li .oeuvre>
+      <span>VALESIANA#
+      . Les pensées critiques, historiques et morales de M. de Valois, Paris, in-12, 1694.
+    <li .auteur>
+      <span>VALLET DE VIRIVILLE#
+      . Histoire de Charles VII et de son époque. Isabeau de Bavière, reine de France, Étude historique, Paris, 1859.
+    <li .auteur>
+      <span>VASSE#
+      . Le légat de la vache à Colas, complainte huguenote, Paris, 1868.
+    <li .auteur>
+      <span>VAUBAN#
+      . Projet d'une disme royale 1608 (par erreur d'impression).
+    <li .auteur>
+      <span>VAUGELAS#
+      . Nouvelles remarques, Paris, 1690, éd. citée par POUGENS. — Quinte-Curce, de la vie et des actions d'Alexandre le Grand, Paris, in-12, 1681.
+    <li .auteur>
+      <span>VAUVENARGUES#
+      . Œuvres complètes de Vauvenargues, Paris, 1797, 2 vol.  in-12.
+    <li .auteur>
+      <span>VERNOIS#
+      . De la main des ouvriers et des artisans au point de vue de la médecine légale, Paris, 1861.
+    <li .auteur>
+      <span>VIAN#
+      . La Particule nobiliaire, Paris, 1868, in-8°.
+    <li .auteur>
+      <span>VIBRAYE (DE)#
+      . Sur l'exploitation agricole, Paris, in-12, brochure.
+    <li .auteur>
+      <span>VIEILLEVILLE#
+      . Voy. CARLOIX.
+    <li .auteur>
+      <span>VIENNET#
+      . Clovis, tragédie.
+    <li .auteur>
+      <span>VIGENERE#
+      . Les Commentaires de Jules César des guerres de la Gaule, in-f°, 1589.
+    <li .auteur>
+      <span>VIGNAY (JEHAN DE)#
+      . Le livre des esches moralisé et translaté de latin en françois, par Maistre Jehan de Vignay, mss. du XIVe siècle, fonds français, n° 2148.
+    <li .auteur>
+      <span>VIGNEUL-MARVILLE#
+      . Mélanges d'histoire et de littérature recueillis par M. de Vigneul-Marville, in-12, 1699.
+    <li .auteur>
+      <span>VILLEHARDOUIN#
+      . De la conqueste de Constantinople par Joffroy de Villehardouin et Henri de Valenciennes, publié par Paulin Paris, Paris, 1838, in-8.
+    <li .auteur>
+      <span>VILLEMAIN#
+      . Cours de littérature française. Littérature du moyen âge, Paris, 1830, in-8°. — Cours de littérature française, tableaux de la littérature au XVIIIe siècle, 4 vol. Didier, 1868. — Souvenirs contemporains, d'histoire et de littérature, 2 vol. Paris, 1864.
+    <li .auteur>
+      <span>VILLEMARQUÉ#
+      . Le grand mystère de Jésus, Passion et résurrection, drame breton, avec une étude sur le Théâtre chez les nations celtiques, par le vicomte de la Villemarqué, Paris, 1865.
+    <li .auteur>
+      <span>VILLENEUVE (G#
+      . DE LA). XIIIe siècle, Cris de Paris, dans MÉON, Fabliaux et contes, t. II, p. 276.
+    <li .auteur>
+      <span>VILLON#
+      . Les Œuvres de Fr. Villon, Paris, chez Coustelier, 1723.
+    <li .oeuvre>
+      <span>VINGT-TROIS MANIÈRES DE VILLAIN (DES)#
+      , publié par A. Jubinal, Paris, 1834.
+    <li .auteur>
+      <span>VOIRON#
+      . Histoire de l'astronomie, in-4° 1810, chez Courcier.
+    <li .auteur>
+      <span>VOITURE#
+      . Les Œuvres de M. de Voiture, contenant ses lettres et ses poésies, avec l'histoire d'Alcidalis et de Zelide, 2 vol. in-12, Paris, 1713, éd.  citée dans POUGENS.
+    <li .auteur>
+      <span>VOLNEY#
+      . Œuvres complètes, Paris, Bossange, 1821, 8 vol. in-8°.
+    <li .oeuvre>
+      <span>VOYAGE#
+      . Voyage de Siam des pères jésuites envoyés par le roy aux Indes, à la Chine, Amsterdam, 1689, in-12, 3 vol.
+
+  <h2 #lettre-W>W
+
+  <ul>
+    <li .auteur>
+      <span>WACE#
+      . Le roman de Brut, publié par le Roux de Lincy, 2 vol. in-8°, Rouen, 1836. — Le roman de Kou, publié par Pluquet et le Prevost, Rouen, 1827, 2 vol. in-8.
+    <li .auteur>
+      <span>WARU (DE)#
+      . Enquête sur la Banque, Paris, 1867.
+    <li .auteur>
+      <span>WINKELMANN#
+      . Histoire de l'art chez les anciens, traduit de l'allemand, 2 vol. in-4°, Paris, 1803.
+
+  <h2 #lettre-Y>Y
+
+  <ul>
+    <li .oeuvre>
+      <span>YMAGE DU MONDE (L')#
+      . Mss. de St-Brieuc, du XIIIe siècle ou du commencement du XIVe.

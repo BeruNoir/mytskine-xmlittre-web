@@ -1,0 +1,405 @@
+diff --git a/acinclude.m4 b/acinclude.m4
+index 4358f52..5996f3e 100644
+--- a/acinclude.m4
++++ b/acinclude.m4
+@@ -221,6 +221,87 @@ fi
+ 
+ ])
+ 
++dnl -*- autoconf -*-
++dnl $id$
++dnl Check for libsqlite, based on version found at libdbi-drivers.sf.net (GPLv2-licensed)
++
++AC_DEFUN([AC_FIND_FILE], [
++  $3=no
++  for i in $2; do
++    for j in $1; do
++      if test -r "$i/$j"; then
++        $3=$i
++        break 2
++      fi
++    done
++  done
++])
++
++AC_DEFUN([AC_CHECK_SQLITE], [
++  ac_sqlite_incdir="no"
++  ac_sqlite_libdir="no"
++
++  AC_ARG_WITH([sqlite-includes],
++    AC_HELP_STRING([--with-sqlite-includes],[specifies where the SQLite include files are.]),
++    [ac_sqlite_incdir="$withval"]
++  )
++  AC_ARG_WITH([sqlite-libs],  
++    AC_HELP_STRING([--with-sqlite-libs],[specifies where the SQLite libraries are.]),
++    [ac_sqlite_libdir="$withval"]
++  )
++
++  # exported variables
++  SQLITE_LIBS=""
++  SQLITE_CFLAGS=""
++
++  # Try to automagically find SQLite, either with pkg-config, or without.
++  if test "x$ac_cv_use_sqlite" = "xyes"; then
++    if test "x$PKGCONFIG" != "xno" -a "x$PKGCONFIG" != "x"; then
++      SQLITE_LIBS=$($PKGCONFIG --libs sqlite)
++      SQLITE_CFLAGS=$($PKGCONFIG --cflags sqlite)
++      if test "x$SQLITE_LIBS" = "x" -a "x$SQLITE_CFLAGS" = "x"; then
++        AC_CHECK_LIB([sqlite3], [sqlite3_open], [ac_cv_use_sqlite="yes"], [ac_cv_use_sqlite="no"])
++      else
++        ac_cv_use_sqlite="yes"
++      fi
++      AC_MSG_RESULT([$ac_cv_use_sqlite])
++    else
++      AC_CHECK_LIB([sqlite3], [sqlite3_open], [ac_cv_use_sqlite="yes"], [ac_cv_use_sqlite="no"])
++    fi
++  fi
++
++  if test "$ac_sqlite_incdir" = "no"; then
++    sqlite_incdirs="/usr/include /usr/local/include /usr/include/sqlite /usr/local/include/sqlite /usr/local/sqlite/include /opt/sqlite/include"
++  else
++    sqlite_incdirs="$ac_sqlite_incdir"
++  fi
++
++  if test "$ac_sqlite_libdir" = "no"; then
++    sqlite_libdirs="/usr/lib /usr/lib/x86_64-linux-gnu /usr/local/lib /usr/lib/sqlite /usr/local/lib/sqlite /usr/local/sqlite/lib /opt/sqlite/lib"
++  else
++    sqlite_libdirs="$ac_sqlite_libdir"
++  fi
++
++  AC_MSG_CHECKING([SQLite include files])
++  AC_FIND_FILE(sqlite3.h, $sqlite_incdirs, ac_sqlite_incdir)
++  if test "$ac_sqlite_incdir" = "no"; then
++    AC_MSG_ERROR([Invalid SQLite directory - include files not found.])
++  else
++    test "x$SQLITE_CFLAGS" = "x" && SQLITE_CFLAGS=-I$ac_sqlite_incdir
++    AC_MSG_RESULT([$SQLITE_CFLAGS])
++  fi
++
++  AC_MSG_CHECKING([SQLite libraries])
++  sqlite_libs="libsqlite3.so libsqlite3.dylib"
++  AC_FIND_FILE($sqlite_libs, $sqlite_libdirs, ac_sqlite_libdir)
++  if test "$ac_sqlite_libdir" = "no"; then
++    AC_MSG_ERROR([Invalid SQLite directory - libraries not found.])
++  else
++    test "x$SQLITE_LIBS" = "x" && SQLITE_LIBS="-L$ac_sqlite_libdir -lsqlite3"
++    AC_MSG_RESULT([$SQLITE_LIBS])
++  fi
++])
++
+ dnl ---------------------------------------------------------------------------
+ dnl Macro: AC_CHECK_PGSQL
+ dnl First check for custom PostgreSQL paths in --with-pgsql-* options.
+diff --git a/configure.ac b/configure.ac
+index 903d006..8b617d8 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -286,6 +286,41 @@ else
+ fi
+ fi
+ 
++# check if we should compile with SQLite support
++AC_ARG_WITH([sqlite],
++  AC_HELP_STRING([--with-sqlite], [compile with SQLite support (default is enabled)]),
++  [ac_cv_use_sqlite=$withval],[ac_cv_use_sqlite="yes"]
++)
++
++AC_MSG_CHECKING([whether to compile with SQLite support])
++if test x$ac_cv_use_sqlite != xno; then
++  AC_MSG_RESULT([yes])
++  AC_CHECK_SQLITE([$ac_cv_use_sqlite])
++  AC_DEFINE(USE_SQLITE,1,[Define to 1 if you want to compile with SQLite support])
++  AC_SUBST([SQLITE_LIBS])
++  AC_SUBST([SQLITE_CFLAGS])
++else
++  AC_MSG_RESULT([no])
++fi
++AM_CONDITIONAL(USE_SQLITE, test x$ac_cv_use_sqlite != xno)
++
++# check if we should statically link the SQLite library
++AC_ARG_WITH([static-sqlite], 
++  AC_HELP_STRING([--with-static-sqlite], [link statically with SQLite library (default is no)]),
++  [ac_cv_use_static_sqlite=$withval], [ac_cv_use_static_sqlite=no]
++)
++AC_MSG_CHECKING([whether to link statically with SQLite support])
++if test x$ac_cv_use_sqlite != xno; then
++  if test x$ac_cv_use_static_sqlite != xno; then
++    AC_CHECK_SQLITE([$ac_cv_use_static_sqlite])
++    SQLITE_LIBS=`echo $SQLITE_LIBS | sed -e 's/\-Bdynamic/\-Bstatic/g'`
++    SQLITE_LIBS="-Wl,-Bstatic $SQLITE_LIBS -Wl,-Bdynamic"
++    AC_MSG_RESULT([yes])
++  else
++    AC_MSG_RESULT([no])
++  fi
++fi
++
+ # check if we should compile with PostgreSQL support
+ AC_ARG_WITH([pgsql],
+             AC_HELP_STRING([--with-pgsql], [compile with PostgreSQL support (default is disabled)]),
+diff --git a/src/Makefile.am b/src/Makefile.am
+index 5872f62..47f3fe6 100644
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -22,5 +22,5 @@ extract-version:
+ 	/bin/sh svnxrev.sh ..
+ 
+ AM_CPPFLAGS = -DSYSCONFDIR="\"$(sysconfdir)\"" -DDATADIR="\"$(localstatedir)/data\""
+-COMMON_LIBS = libsphinx.a $(LIBSTEMMER_LIBS) $(MYSQL_LIBS) $(PGSQL_LIBS)
++COMMON_LIBS = libsphinx.a $(LIBSTEMMER_LIBS) $(MYSQL_LIBS) $(PGSQL_LIBS) $(SQLITE_LIBS)
+ LDADD = $(COMMON_LIBS)
+diff --git a/src/indexer.cpp b/src/indexer.cpp
+index 22593b0..62f119a 100644
+--- a/src/indexer.cpp
++++ b/src/indexer.cpp
+@@ -571,7 +571,9 @@ bool ParseJoinedField ( const char * sBuf, CSphJoinedField * pField, const char
+ 
+ bool SqlParamsConfigure ( CSphSourceParams_SQL & tParams, const CSphConfigSection & hSource, const char * sSourceName )
+ {
+-	if ( !hSource.Exists("odbc_dsn") ) // in case of odbc source, the host, user, pass and db are not mandatory, since they may be already defined in dsn string.
++	// in case of odbc source, the host, user, pass and db are not mandatory, since they may be already defined in dsn string.
++	// sqlite doesn't require host, user, pass or db either
++	if ( !hSource.Exists("odbc_dsn") && !( hSource.Exists("type") && hSource["type"] == "sqlite" ) )
+ 	{
+ 		LOC_CHECK ( hSource, "sql_host", "in source '%s'", sSourceName );
+ 		LOC_CHECK ( hSource, "sql_user", "in source '%s'", sSourceName );
+@@ -711,6 +713,26 @@ CSphSource * SpawnSourceMySQL ( const CSphConfigSection & hSource, const char *
+ #endif // USE_MYSQL
+ 
+ 
++#if USE_SQLITE
++CSphSource* SpawnSourceSQLite(const CSphConfigSection& hSource, const char* sSourceName)
++{
++  assert(hSource["type"] == "sqlite");
++
++  CSphSourceParams_SQLite tParams;
++  if (!SqlParamsConfigure(tParams, hSource, sSourceName))
++    return NULL;
++
++  LOC_GETS(tParams.m_sFile, "sqlite_file");
++
++  CSphSource_SQLite* pSrcSQLite = new CSphSource_SQLite(sSourceName);
++  if (!pSrcSQLite->Setup(tParams))
++    SafeDelete(pSrcSQLite);
++
++  return pSrcSQLite;
++}
++#endif // USE_SQLITE
++
++
+ #if USE_ODBC
+ CSphSource * SpawnSourceODBC ( const CSphConfigSection & hSource, const char * sSourceName )
+ {
+@@ -817,6 +839,11 @@ CSphSource * SpawnSource ( const CSphConfigSection & hSource, const char * sSour
+ 		return SpawnSourceMySQL ( hSource, sSourceName );
+ 	#endif
+ 
++	#if USE_SQLITE
++	if ( hSource["type"]=="sqlite" )
++		return SpawnSourceSQLite ( hSource, sSourceName );
++	#endif
++
+ 	#if USE_ODBC
+ 	if ( hSource["type"]=="odbc" )
+ 		return SpawnSourceODBC ( hSource, sSourceName );
+diff --git a/src/sphinx.cpp b/src/sphinx.cpp
+index 5faabbf..b41f98c 100644
+--- a/src/sphinx.cpp
++++ b/src/sphinx.cpp
+@@ -21711,6 +21711,113 @@ bool CSphSource_MySQL::Setup ( const CSphSourceParams_MySQL & tParams )
+ #endif // USE_MYSQL
+ 
+ /////////////////////////////////////////////////////////////////////////////
++// SQLite SOURCE
++/////////////////////////////////////////////////////////////////////////////
++
++#if USE_SQLITE
++
++CSphSourceParams_SQLite::CSphSourceParams_SQLite() : m_sFile(NULL)
++{
++}
++
++CSphSource_SQLite::CSphSource_SQLite(const char* sName) : CSphSource_SQL(sName),m_pSqliteDriver(NULL),m_pSqliteStatement(NULL)
++{
++}
++
++void CSphSource_SQLite::SqlDismissResult()
++{
++  if (!m_pSqliteStatement)
++    return;
++
++  sqlite3_finalize(m_pSqliteStatement);
++  m_pSqliteStatement = NULL;
++}
++
++bool CSphSource_SQLite::SqlQuery(const char* sQuery)
++{
++  if (sqlite3_prepare_v2(m_pSqliteDriver, sQuery, strlen(sQuery), &m_pSqliteStatement, NULL) != SQLITE_OK)
++    return false;
++
++  return true;
++}
++
++bool CSphSource_SQLite::SqlIsError()
++{
++  return 0; //sqlite3_errcode(m_pSqliteDriver) != SQLITE_OK;
++}
++
++const char* CSphSource_SQLite::SqlError()
++{
++  return sqlite3_errmsg(m_pSqliteDriver);
++}
++
++bool CSphSource_SQLite::SqlConnect()
++{
++  return sqlite3_open(m_sFile.cstr(), &m_pSqliteDriver) == SQLITE_OK;
++}
++
++void CSphSource_SQLite::SqlDisconnect()
++{
++  sqlite3_close(m_pSqliteDriver);
++}
++
++int CSphSource_SQLite::SqlNumFields()
++{
++  if (!m_pSqliteStatement)
++    return -1;
++
++  return sqlite3_column_count(m_pSqliteStatement);
++}
++
++bool CSphSource_SQLite::SqlFetchRow ()
++{
++  if (!m_pSqliteStatement)
++    return false;
++
++  return sqlite3_step(m_pSqliteStatement) == SQLITE_ROW;
++}
++
++const char* CSphSource_SQLite::SqlColumn(int iIndex)
++{
++  if (!m_pSqliteStatement)
++    return NULL;
++
++  return (const char*)sqlite3_column_blob(m_pSqliteStatement, iIndex);
++}
++
++const char* CSphSource_SQLite::SqlFieldName(int iIndex)
++{
++  if (!m_pSqliteStatement)
++    return NULL;
++
++  return sqlite3_column_name(m_pSqliteStatement, iIndex);
++}
++
++DWORD CSphSource_SQLite::SqlColumnLength(int iIndex)
++{
++  if (!m_pSqliteStatement)
++    return 0;
++
++  return sqlite3_column_bytes(m_pSqliteStatement, iIndex);
++}
++
++bool CSphSource_SQLite::Setup(const CSphSourceParams_SQLite& tParams)
++{
++  if (!CSphSource_SQL::Setup(tParams))
++    return false;
++
++  m_sFile = tParams.m_sFile;
++
++  // build and store DSN for error reporting
++  char sBuf [1024];
++  snprintf (sBuf, sizeof(sBuf), "sqlite://%s", m_sFile.cstr());
++  m_sSqlDSN = sBuf;
++
++  return true;
++}
++#endif // USE_SQLITE
++
++/////////////////////////////////////////////////////////////////////////////
+ // PGSQL SOURCE
+ /////////////////////////////////////////////////////////////////////////////
+ 
+diff --git a/src/sphinx.h b/src/sphinx.h
+index 8059eaf..3c4c9d0 100644
+--- a/src/sphinx.h
++++ b/src/sphinx.h
+@@ -64,6 +64,10 @@
+ #include <mysql.h>
+ #endif
+ 
++#if USE_SQLITE
++#include <sqlite3.h>
++#endif
++
+ #if USE_WINDOWS
+ typedef __int64				SphOffset_t;
+ #define STDOUT_FILENO		fileno(stdout)
+@@ -1797,6 +1801,44 @@ protected:
+ #endif // USE_MYSQL
+ 
+ 
++#if USE_SQLITE
++// SQLite source params
++struct CSphSourceParams_SQLite : CSphSourceParams_SQL
++{
++  CSphSourceParams_SQLite();
++
++  CSphString m_sFile;
++};
++
++// SQLite source implementation
++// multi-field plain-text documents fetched from given query
++struct CSphSource_SQLite : CSphSource_SQL
++{
++  explicit CSphSource_SQLite(const char* sName);
++  bool     Setup(const CSphSourceParams_SQLite& tParams);
++
++protected:
++  sqlite3*      m_pSqliteDriver;
++  sqlite3_stmt* m_pSqliteStatement;
++
++  CSphString m_sFile;
++
++protected:
++  virtual void        SqlDismissResult();
++  virtual bool        SqlQuery(const char* sQuery);
++  virtual bool        SqlIsError();
++  virtual const char* SqlError();
++  virtual bool        SqlConnect();
++  virtual void        SqlDisconnect();
++  virtual int         SqlNumFields();
++  virtual bool        SqlFetchRow();
++  virtual DWORD       SqlColumnLength(int iIndex);
++  virtual const char* SqlColumn(int iIndex);
++  virtual const char* SqlFieldName(int iIndex);
++};
++#endif // USE_SQLITE
++
++
+ #if USE_PGSQL
+ /// PgSQL specific source params
+ struct CSphSourceParams_PgSQL : CSphSourceParams_SQL
+diff --git a/src/sphinxutils.cpp b/src/sphinxutils.cpp
+index 3c28723..7569688 100644
+--- a/src/sphinxutils.cpp
++++ b/src/sphinxutils.cpp
+@@ -140,6 +140,7 @@ static KeyDesc_t g_dKeysSource[] =
+ 	{ "sql_db",					0, NULL },
+ 	{ "sql_port",				0, NULL },
+ 	{ "sql_sock",				0, NULL },
++	{ "sqlite_file",			0, NULL },
+ 	{ "mysql_connect_flags",	0, NULL },
+ 	{ "mysql_ssl_key",			0, NULL },
+ 	{ "mysql_ssl_cert",			0, NULL },
+diff --git a/src/sphinx.cpp b/src/sphinx.cpp
+index b41f98c..71bdd73 100644
+--- a/src/sphinx.cpp
++++ b/src/sphinx.cpp
+@@ -21729,6 +21729,7 @@ void CSphSource_SQLite::SqlDismissResult()
+   if (!m_pSqliteStatement)
+     return;
+ 
++  sqlite3_step(m_pSqliteStatement);
+   sqlite3_finalize(m_pSqliteStatement);
+   m_pSqliteStatement = NULL;
+ }

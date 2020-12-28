@@ -1,0 +1,69 @@
+<h1>#{auteurNomLong auteur}, auteur cité dans le Littré
+
+<section .auteur>
+  <h2>#{auteurNomCourt auteur} #
+    $if (auteurDates auteur) /= ""
+      <em class="date">(#{auteurDates auteur})
+
+  Dans le texte d'origine du Littré, les auteurs pouvaient être nommés par de nombreuses variantes.
+  Dans cette version en ligne, la forme
+  <em>#{auteurNomCourt auteur}
+  a été choisie.
+
+  <p>
+    #{auteurBiographie auteur}
+
+  <p>
+    <a href=@{SearchQuotationsOfR (auteurNomCourt auteur)} title="Chercher parmi les citations de l'auteur">
+      #{auteurNumCitations auteur} citations dans le Littré
+
+  <div .oeuvres>
+    <h3>Œuvres citées dans le dictionnaire Littré
+
+    $if null oeuvres
+      <p>Aucune œuvre identifiée, le travail d'identification des œuvres reste à faire sur cet auteur.
+    $else
+      <p>
+        Cette liste des œuvres a été compilée manuellement pour ce site web.
+        Elle n'est pas exhaustive, et privilégie autant que possible les références aux éditions originales.
+        Elle peut toutefois comprendre des publications contemporaines d'É. Littré,
+        lorsque ce dernier était explicite sur ses sources ou qu'il cite des compilations.
+        Le dictionnaire imprimé contenait d'ailleurs une
+        <a href=@{AnnexesR LivresR}>liste très partielle
+        \ des œuvres et auteurs.
+
+      <table #oeuvres .table .table-sortable>
+        <thead>
+          <tr>
+            <th .col-sortable .sort-default>Titre de l'œuvre
+            <th .col-sortable .sort-int>Date de parution
+            <th .col-sortable .sort-int .sort-up>Citations
+        <tbody>
+          $forall Entity opusId opus <- oeuvres
+            <tr>
+              <td .titre>
+                  #{oeuvreTitre opus}
+              <td>
+                  #{oeuvreDateParution opus}
+              <td>
+                  <a href=@{SearchQuotationsInR opusId nom} title="Chercher parmi les citations de cette œuvre">
+                     #{oeuvreNumCitations opus} citations
+
+  <h3>Quelques citations de #{auteurNomLong auteur}
+
+  <p>
+      Voici un tirage aléatoire parmi ses #
+      <a href=@{SearchQuotationsOfR (auteurNomCourt auteur)} title="Chercher parmi les citations de l'auteur">
+        #{auteurNumCitations auteur} citations
+      dans le Littré.
+  <ol .citations>
+      $forall result <- citations
+        <li>
+          <q .excerpt>
+            #{citation result}
+          <div .source>
+            <em .ref title="#{oeuvre result}">#{reference result}
+
+            (#
+            <a href=@{DefinitionR $ utitlec result}>#{titlec result}#
+                )

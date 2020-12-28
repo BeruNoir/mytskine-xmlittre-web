@@ -1,0 +1,64 @@
+Definition
+    titre Text
+    titreCourt Text
+    titreUnique Text
+    incipit Text
+    texte Html
+    tome Int
+    page Int
+    UniqueTitle titreUnique
+
+Mot
+    mot Text
+    littre Bool
+    nature Text
+    flexion Text
+    frequence Int
+    racine Text
+    definitionId DefinitionId Maybe
+
+Auteur
+    nomCourt Text
+    nomLong Text
+    dates Text
+    biographie Html
+    connu Bool
+    numCitations Int
+    UniqueName nomCourt
+
+Oeuvre
+    titreUnique Text Maybe
+    titre Text
+    auteurId AuteurId Maybe
+    dateParution Text
+    commentaire Html
+    numCitations Int
+
+Citation
+    texte Text
+    auteurId AuteurId Maybe
+    oeuvreId OeuvreId Maybe
+    reference Html
+    definitionId DefinitionId
+
+Proverbe
+    texte Text
+    explication Text
+    definitionId DefinitionId
+
+-- Forms
+
+Recherche
+    terme Text Maybe
+
+SearchDefinitions
+    query Text Maybe
+
+SearchCitations
+    query Text Maybe
+    authorId AuteurId Maybe
+
+SearchProverbes
+    query Text Maybe
+
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)

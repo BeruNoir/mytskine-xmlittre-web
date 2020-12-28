@@ -1,0 +1,162 @@
+#main-content {
+	p {
+		font-family: "DejaVu Serif", serif;
+	}
+}
+
+header {
+	a.home {
+		text-decoration: none;
+		color: #0000EE;
+	}
+	a:visited {
+		color:  #0000EE;
+	}
+}
+@media (min-width: 640px) {
+	#main-content {
+		margin-left: 180px;
+	}
+	#sidebar {
+		width: 160px;
+	}
+}
+#sidebar-menu-handle,
+#sidebar-menu-input {
+	display: none;
+}
+#sidebar {
+	float: left;
+	margin-left: 0;
+	background-color: #f0f7ff;
+	overflow: hidden;
+	padding: 2px;
+
+	#searchbox {
+		margin-top: 1ex;
+		input {
+			max-width: 150px;
+		}
+		label {
+			display: none;
+		}
+	}
+
+	a:hover {
+		color: #005580;
+		text-decoration: underline;
+	}
+	a:visited {
+		color:  #0000EE;
+	}
+
+	> .sidebar-content > div {
+		margin-bottom: 3ex;
+		> ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+			li {
+				padding-left: 2ex;
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+#advsearch {
+	margin-top: 1ex;
+}
+
+#voisins {
+	ul {
+		li.actif {
+			background-color: #eeeeff;
+		}
+	}
+	a:visited {
+		color:  #551a8b;
+	}
+}
+
+#searchbox {
+	text-align: center;
+
+	input[type="text"]:focus {
+		border-bottom-color: rgba(82, 168, 236, 0.804);
+		border-left-color: rgba(82, 168, 236, 0.804);
+		border-right-color: rgba(82, 168, 236, 0.804);
+		border-top-color: rgba(82, 168, 236, 0.804);
+		box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.071), 0px 0px 8px rgba(82, 168, 236, 0.600);
+		outline: 0px none currentColor;
+	}
+	input[type="text"] {
+		background-color: #FFFFFF;
+		border: 1px solid #CCCCCC;
+		border-radius: 3px;
+		box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.071);
+		transition: border 0.2s cubic-bezier(0, 0, 1, 1) 0, box-shadow 0.2s cubic-bezier(0, 0, 1, 1) 0;
+	}
+	input {
+		color: #555555;
+		display: inline-block;
+		font-size: 13px;
+		height: 18px;
+		line-height: 18px;
+		margin-bottom: 9px;
+		padding: 4px;
+		width: 210px;
+		font-weight: 400;
+	}
+}
+
+footer {
+	margin-top: 2.0ex;
+	clear: both;
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+#sidebar-menu-handle {
+	text-align: center;
+	background-color: #FEFEFE;
+	margin: 2px 2px 2px 1ex;
+}
+@media (max-width: 640px) {
+	#sidebar-menu-handle {
+		display: block;
+		float:right;
+	}
+	#liens-externes {
+		display: none;
+	}
+	#sidebar {
+		float:right;
+		.sidebar-content {
+			display: none;
+		}
+		#searchbox {
+			input {
+				width: 70%;
+				max-width: 220px;
+			}
+		}
+	}
+	#sidebar-menu-input:checked + #sidebar {
+		width: 100%;
+		.sidebar-content {
+			display: block;
+		}
+	}
+}
+
+@media (pointer:coarse) {
+	.sidebar-content li,
+	.sidebar-content li > a {
+		padding-top: 3px;
+		padding-bottom: 2mm;
+	}
+}

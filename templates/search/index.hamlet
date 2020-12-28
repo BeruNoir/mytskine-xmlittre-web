@@ -1,0 +1,20 @@
+<div #search-index>
+    <h1>Recherche avancée
+
+    <h2>Recherche dans le texte intégral du Littré
+    <form method=get action=@{SearchFullTextR} enctype=#{enctypeDef} .form-horizontal>
+        ^{widgetSearchDefinitions}
+        <div .form-actions>
+            <button .btn type=submit value="">Rechercher dans le corps des définitions
+
+    <h2>Recherche dans les citations
+    <form method=get action=@{SearchQuotationsR} enctype=#{enctypeCit} .form-horizontal>
+        ^{widgetSearchCitations}
+        <div .form-actions>
+            <button .btn type=submit value="">Rechercher dans les citations
+
+    <h2>Recherche dans les proverbes
+    <form method=get action=@{SearchProverbesR} enctype=#{enctypeProv} .form-horizontal>
+        ^{widgetSearchProverbes}
+        <div .form-actions>
+            <button .btn type=submit value="">Rechercher dans les proverbes

@@ -1,0 +1,6 @@
+ <h1>Page introuvable
+ <p>Si vous pensez que le site est en faute (lien erroné, etc), merci de le #
+      <a href="mailto:#{email}">signaler#
+      .
+ <p>
+      <a href=@{HomeR}>Retour à l'accueil

@@ -1,0 +1,17 @@
+<div #voisins>
+  $maybe _ <- defId
+    <strong>Mots voisins
+  $nothing
+    <strong>Mots (au hasard)
+  <ul>
+    $forall WordLink _ title uTitle linkType <- definitions
+      $case linkType
+        $of ActiveWord
+          <li .actif>
+            <span .actif>#{title}
+        $of NextWord
+          <li>
+            <a href=@{DefinitionR uTitle} rel="next">#{title}
+        $of _
+          <li>
+            <a href=@{DefinitionR uTitle}>#{title}

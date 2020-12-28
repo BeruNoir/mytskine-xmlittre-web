@@ -1,0 +1,33 @@
+# If empty or not set: determine the application root from the request headers.
+approot: "_env:APPROOT:"
+
+host: "_env:LISTEN:127.0.0.1" # bind to the local host, no distant access
+port: "_env:PORT:3000" # NB: The port `yesod devel` uses is distinct from this value.
+ip-from-header: "_env:IP_FROM_HEADER:false"
+static-dir: "static"
+
+database:
+    database: xmlittre.sqlite3
+    poolsize: "_env:SQLITE_POOLSIZE:100"
+
+sphinx:
+    database: none
+    user: ""
+    password: ""
+    host: "localhost"
+    port: 0
+    path: "_env:SPHINX_SOCKET:sphinx/run/searchd-xmlittre.socket"
+    poolsize: 10
+
+copyright: François Gannaz
+
+# Optional values with the following production defaults.
+# In development, they default to the inverse.
+#
+# detailed-logging: false
+# should-log-all: false
+# reload-templates: false
+# mutable-static: false
+# skip-combining: false
+# auth-dummy-login : false
+

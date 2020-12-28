@@ -1,0 +1,11 @@
+<div #searchbox>
+  <form method=get action=@{RechercheR}>
+    <div>
+       <div>
+           <label for="mot">Mot
+           <input name="mot" type="text" value=""/>
+       <button type=submit value="">Rechercher
+  <div .comment>
+    Une requête vide propose un mot au hasard.
+  <div #advsearch>
+    <a href=@{SearchAdvancedR}>Recherche avancée

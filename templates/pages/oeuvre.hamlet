@@ -1,0 +1,12 @@
+<h1>Œuvre « #{oeuvreTitre oeuvre} » dans le Littré
+
+<section .oeuvre>
+  <h2>#{oeuvreTitre oeuvre}
+
+  <div .commentaire>
+    #{oeuvreCommentaire oeuvre}
+
+  <div .citations>
+    <a href=@{SearchQuotationsInR oid (prettifyUrlComponent oeuvre)}>
+      #{countCitations} citations#
+    \ dans le dictionnaire Littré.

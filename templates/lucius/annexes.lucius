@@ -1,0 +1,92 @@
+.annexe {
+	max-width: 80ex;
+
+	.toc {
+		float: right;
+		padding: 0.8ex 1ex;
+		background-color: #f0f0ff;
+		margin: 2ex 0 3ex;
+
+		ul, ol {
+			margin: 0;
+		}
+		ul {
+			list-style: none;
+		}
+		ol {
+			list-style-type: upper-roman;
+			margin-left: 1.6ex;
+		}
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	h1,
+	h2 {
+		clear: right;
+		font-variant: small-caps;
+		text-align: center;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		clear: right;
+	}
+}
+
+#page-preface {
+	blockquote {
+		text-align: justify;
+	}
+	p {
+		text-indent: 3ex;
+		text-align: justify;
+	}
+	ol {
+		padding: 16px 20px;
+
+		li > p:first-child {
+			text-indent: 0;
+		}
+	}
+
+	q:before {
+		content: "« ";
+	}
+	q:after {
+		content: " »";
+	}
+}
+
+#page-prononciation {
+	li div {
+		text-align: justify;
+	}
+	ol.details > li {
+		margin-bottom: 1ex;
+	}
+	ul {
+		margin-top: 0;
+		padding-left: 2ex;
+	}
+}
+
+#page-livres-cites {
+	ul {
+		list-style-type: none;
+	}
+	li.oeuvre span {
+		color: #000080;
+		font-size: 110%;
+		font-weight: 700;
+	}
+	li.auteur span {
+		color: #008000;
+		font-size: 110%;
+		font-weight: 700;
+	}
+}
+

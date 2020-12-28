@@ -1,0 +1,212 @@
+$newline always
+<div #etymologie .content-text>
+  <h1>Étymologie
+
+  <p>
+    Ce texte a pour but d'aider à la compréhension du Littré,
+    il ne fait pas partie du dictionnaire publié au XIX<sup>e</sup> siècle.
+
+  <p>
+    Dans les rubriques d'étymologie, le dictionnaire Littré
+    donne souvent le terme équivalent
+    dans différentes langues et dialectes contemporains
+    — par exemple le provençal, l'espagnol et l'italien —
+    puis il liste les mots à partir desquels ces termes se sont construits au fil du temps
+    — bien souvent depuis le latin.
+    Ce double contexte, géographique et historique, mérite quelques explications.
+    Il faut toujours garder à l'esprit que ce dictionnaire a été rédigé
+    lors de la seconde moitié du XIX<sup>e</sup> siècle,
+    donc les conventions qu'il utilise ne sont pas nos conventions modernes.
+
+
+  <h2>Notations phonétiques
+  <p>
+    Le Littré n'utilise que l'alphabet du français et celui du grec polytonique.
+    Lorsque l'accentuation est utile à l'étymologie, il place des accents aigus.
+    De même pour la longueur des syllabes, avec des brèves et des macrons ; par exemple le latin <i lang="la">nocĕre</i> ou <i lang="la">nocēre</i> dans
+    <a href=@{DefinitionR "nuire"}>nuire#
+    .
+
+
+  <h2>Contexte géographique
+
+  <p>
+    Contrairement au dictionnaire de l'Académie française, le Littré n'a pas vocation à fixer une norme de la langue.
+    Il décrit les pratiques de son époque, et notamment les vocabulaires régionaux qui donnent des informations précieuses sur l'évolution des langues et leurs influences réciproques.
+
+  <h3>Les langues romanes en France
+
+  <p>
+    Du vivant d'Émile Littré subsistaient encore des langues et dialectes aujourd'hui moribonds ou défunts.
+    La politique nationale visait à les affaiblir au profit d'une unique langue commune et bien normée.
+    Le terme
+    <a href=@{DefinitionR "patois"}>patois
+    était devenu méprisant,
+    et parfois attribué injustement à des langues aussi anciennes que le français de la capitale.
+
+    Pour la plupart, les langages régionaux parlés en France avaient leurs origines dans le latin des Romains.
+    On les qualifie donc de <i>langues romanes</i>.
+    La langue française s'est construite sur ce substrat,
+    en particulier sur la forme écrite de la langue d'oïl
+    qui atténuait les différences entre ses dialectes.
+
+  <figure>
+    <img src=@{StaticR img_cartefrancedialectes_svg} alt="Carte de France des dialectes" width="100%">
+    <figcaption>
+      Carte des langues et dialectes de France métropolitaine au IX<sup>e</sup> s.
+
+  <p>
+    La carte ci-dessus place les différents langages de France présents dans les rubriques étymologiques du dictionnaire.
+    Tous ces dialectes romans sont apparus au Moyen-âge, à partir du IX<sup>e</sup> siècle pour les plus anciens.
+    Les trois principales langues non romanes parlées en France sont indiquées en noir : le basque (isolat linquistique), le breton (celtique), et l'alsacien (germanique).
+
+  <p>
+    Voici les idiomes romans de France souvent cités par le dictionnaire Littré, triés par fréquence décroissante :
+
+  <ul>
+    <li>
+      langue d'oc (<em>provençal</em> dans le Littré, <i>occitan</i> aujourd'hui)
+      <ul>
+        <li>
+          <em>catalan
+    <li>langue d'oïl
+      <ul>
+        <li>
+          <em>wallon#
+          , distinguant parfois le <em>hainaut</em>
+          (wallo-picard) et le <em>namurois</em>
+        <li>
+          <em>berrichon
+        <li>
+          <em>bourguigon
+        <li>
+          <em>picard
+        <li>
+          <em>normand
+        <li>
+          <em>saintongeais
+        <li>
+          <em>lorrain
+
+  <p>
+    Le <em>provençal</em> est un des dialectes de ce que Dante nommait la <i>langue d'oc</i>, mais c'est aussi le nom que Le Littré donne à l'ensemble.
+    La forme écrite médievale, la <a href="http://www.cnrtl.fr/definition/koine" title="Ce mot n'est apparu qu'au XXe siècle, bien après le Littré.">koïnê</a> des troubadours, avait atténué les différences régionales de la langue parlée.
+    Le dictionnaire ne contient qu'une trentaine de mentions de dialectes occitans, en l'occurrence du <em>languedocien</em>, du <em>gascon</em>, et du <em>limousin</em>, mais il cite abondamment le <em>catalan</em>, qui est de la même famille linguistique.
+
+  <p>
+    À l'interface entre ces deux grandes familles d'oïl et d'oc, des idiomes hybrides se sont élaborés.
+    Le dictionnaire Littré propose parfois des mots et expressions en <em>génevois</em>, un des dialectes de ce que nous nommons aujourd'hui <i>franco-provençal</i>.
+
+  <p>
+    Les mentions de mots d'autres langues dans les rubriques d'étymologie sont de différentes natures.
+    Dans certains cas, le terme non-français est l'ancêtre du mot français, comme pour
+    <a href=@{DefinitionR "éclair"}>éclair
+    repris directement du normand.
+    Parfois, il n'a qu'un ancêtre commun avec le français moderne,
+    comme
+    <a href=@{DefinitionR "accueillir"}>accueillir
+    ; wallon <i>acoï</i>
+    ; provençal <i>acuelhir</i>
+    ; catalan <i>acullir</i>
+    ; italien <i lang="it">accogliere</i>,
+    \ mots qui dérivent tous du latin <i lang="la">accoligere</i>.
+
+  <h2>Contexte historique
+
+  <p>
+    Le Littré nomme <em>ancienne langue</em>
+    l'ancien français qui se forme au IX<sup>e</sup> siècle
+    et ne se transforme en moyen français qu'à la fin du XIII<sup>e</sup> siècle.
+    Cet ancien français a conservé du latin un mécanisme de déclinaison simplifié à deux cas et deux genres : nominatif (sujet) et régime, masculin et féminin.
+    Les étymologies du Littré mentionnent parfois les différentes déclinaisons médiévales de ces anciens mots, par exemple pour
+    <a href=@{DefinitionR "cerveau"}>cerveau, cervelle
+    ou pour
+    <a href=@{DefinitionR "garçon"}>garçon#
+    .
+
+  <h3>Les langues de l'Antiquité : grec et latin
+
+  <p>
+    Le terme <em>bas-latin</em> désigne le latin tardif, de la fin de l'empire romain, aux III<sup>e</sup> et IV<sup>e</sup> siècles.
+    Sous l'influence du latin parlé, dit latin vulgaire, et du latin chrétien, il s'écartait progressivement du latin classique.
+    Par ailleurs, le latin est devenu la langue savante de la majorité de l'Europe.
+    Il a ainsi continué à évoluer bien après la chute de Rome, toujours en alimentant la langue française en nouveautés.
+    Des mots comme
+    <a href=@{DefinitionR "parvis"}>parvis
+    ou
+    <a href=@{DefinitionR "figer"}>figer
+    proviennent directement du latin médiéval de France.
+    Bien entendu, le latin vulgaire parlé à Palmyre n'était pas celui de Marsilia, et de même le latin médiéval eut ses variantes régionales.
+
+  <p>
+    En complément du <em>grec classique</em> polytonique, les rubriques étymologiques du Littré utilisent parfois l'archaïque digamma, par exemple pour relier le mot
+    <a href=@{DefinitionR "voix"}>voix
+    au grec archaïque ϝοπ.
+    Très rarement, des variantes dialectales en ionien ou dorien sont mentionnées, par exemple dans
+    <a href=@{DefinitionR "léthé"}>léthé#
+    .
+    On trouve aussi quelques références au bas-grec, la langue grecque de l'antiquité tardive, par exemple dans
+    <a href=@{DefinitionR "orange"}>orange#
+    .
+    Pour cette version en ligne, les mots en alphabet grec ont tous été saisis manuellement, indépendamment de la numérisation initiale. Il est possible que certains passages soient incomplets, en ce cas merci de le signaler via le lien "Contact".
+
+  <h3>Histoire comparée des langues européennes
+
+  <p>
+    L'hypothèse d'une origine commune pour la majorité des langues d'Europe a émergé dès le XVI<sup>e</sup> siècle.
+    À la fin du XVIII<sup>e</sup> siècle,
+    des savants européens parcourent l'Inde et apprennent le sanscrit.
+    Plusieurs générations de linguistes seront fascinés par cette langue très ancienne dont le vocabulaire leur semble si proche.
+    En France, l'<a href="https://fr.wikipedia.org/wiki/Avesta">Avesta</a> est aussi une nouveauté, traduit de sa vieille langue indo-irannienne, l'avestique, qui est à l'époque nommée <i>zend</i>.
+    La théorie moderne de l'<i>indo-européen</i> se construit dans cette effervescence du XIX<sup>e</sup> siècle, du vivant d'Émile Littré,
+    ce qui explique les fréquentes références au <em>zend</em>
+    et au <em>sanscrit</em> dans les étymologies du dictionnaire ;
+    par exemple dans l'article
+    <a href=@{DefinitionR "neveu"}>neveu#
+    .
+
+  <figure>
+    <a href=@{StaticR img_arbreindoeuropeen_svg}>
+      <img src=@{StaticR img_arbreindoeuropeen_svg} alt="Arbres des langue indo-européennes du Littré" width="100%">
+    <figcaption>
+      Arbre des langues indo-européennes du Littré
+
+  <p>
+    Le graphe ci-dessus représente une version simplifiée des origines des principales langues indo-européennes citées dans le Littré.
+    Les interactions sont bien sûr plus complexes que ce qu'un arbre peut représenter.
+    Par exemple, si une langue romane comme le français dérive principalement du latin — avec toute une variété d'idiomes de latin — elle échange aussi avec les autres langues contemporaines, qu'elles soient parlées, comme le breton, ou seulement écrites, comme le grec classique.
+    Les influences multiples sont encore plus nettes sur l'anglais, de souche germanique mais ensuite imprégné d'anglo-normand, un dialecte du vieux français.
+    Le premier chef d'œuvre littéraire de la langue française est sans doute la
+    <a href=@{OeuvreR "Chanson_de_Roland"}>Chanson de Roland
+    dont le plus vieux manuscrit qui nous soit parvenu fut rédigé en anglo-normand dans l'Angleterre du XI<sup>e</sup> siècle.
+
+  <h2>Références bibliographiques
+
+  <p>
+    Pour aller au delà de cet aperçu de la construction de la langue française,
+    je propose quelques ouvrages qui m'ont semblé accessibles.
+    Ces lectures sont d'autant plus recommandées que je ne suis pas spécialiste du domaine,
+    donc en cas de mauvaise compréhension de ces sources, j'ai pu introduire des erreurs.
+
+  <p>
+    Pour un panorama à travers le temps,
+    <i>Histoire de la langue française#
+    , Mireille Huchon, 2002,
+    est riche en détails mais accessible au néophyte.
+    Pour un ouvrage plus complet, mais moins narratif, je recommande l'#
+    <i>Histoire de la langue française#
+    , Jacqueline Picoche et Christiane Marchello-Nizia, 1998,
+    — la <a href="http://www.vigdor.com/titres/picochemarcheloHistoireLangueFrancaise.htm">version PDF</a> est gratuite.
+
+  <p>
+    L'amateur d'étymologie se tournera vers le
+    <i>Dictionnaire historique de la langue française#
+    , surnommé le <i>Robert historique</i>#
+    , sous la direction d'Alain Rey.
+    Dans le dictionnaire Littré, certaines étymologies sont douteuses et débattues ; par exemple,
+    <a href=@{DefinitionR "racaille"}>racaille#
+    .
+    Les progrès de la linguistique diachronique au XX<sup>e</sup> siècle ont tranché beaucoup de ces incertitudes, et cet ouvrage moderne en rend compte, tant par un panorama de la discipline que par des cas concrets comme ce <i>racaille</i> normand.
+
+  <div #signature">
+    François Gannaz

@@ -1,0 +1,30 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET
+/faq FaqR GET
+/statistiques StatsR GET
+/proverbes ProverbesR GET
+/etymologie EtymologieR GET
+
+/definition EmptyDefinitionR GET
+/definition/#Text DefinitionR GET
+/recherche RechercheR GET
+/auteur/#Text AuteurR GET
+/oeuvre/#Text OeuvreR GET
+
+/annexes AnnexesR:
+    /preface PrefaceR GET
+    /causerie CauserieR GET
+    /prononciation PrononciationR GET
+    /livres-cites-par-Littre LivresR GET
+
+/search SearchAdvancedR GET
+/search/definitions SearchFullTextR GET
+/search/citations SearchQuotationsR GET
+/search/citations-auteur/#Text SearchQuotationsOfR GET
+/search/citations-oeuvre/#OeuvreId/#Text SearchQuotationsInR GET
+/search/proverbes SearchProverbesR GET
+

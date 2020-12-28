@@ -1,0 +1,26 @@
+<h1>« #{terme} », définition dans le dictionnaire Littré
+
+<div #liens-externes>
+     <div .vedette>
+       <em>#{termeNet}
+     <p>
+         Définition dans d'autres dictionnaires&#x202f;:
+     <ul>
+         <li>
+             <a href="http://www.cnrtl.fr/definition/#{termeNet}" title="Trésor de la Langue Française informatisé" .lien-externe>
+                 TLFi
+         <li>
+             <a href="http://www.cnrtl.fr/definition/academie8/#{termeNet}" title="Dictionnaire de l'Académie, 8ème édition" .lien-externe>
+                 Académie Française
+     $if (definitionPage definition) > 0
+       <div>
+         Fac-simile de l'édition originale du Littré (BNF)
+         <ul>
+             <li>
+                 <a href=#{computePage definition} target="_blank" rel="noopener" title="s'ouvre dans un nouvel onglet">
+                     Page complète du fac-simile
+
+
+<section .definition>
+    #{definitionTexte definition}
+

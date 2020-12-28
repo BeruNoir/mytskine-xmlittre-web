@@ -1,0 +1,166 @@
+div.vedette {
+	text-align: center;
+}
+
+#liens-externes {
+	float: right;
+	margin: 1ex 1ex 1ex 2ex;
+	padding-left: 1.5ex;
+	border-left: 2px solid #80B080;
+
+	p {
+		margin: 0;
+	}
+}
+
+i[lang="la"] {
+    font-family: Verdana, sans;
+}
+
+.definition {
+	margin-top: 1ex;
+	max-width: 120ex;
+
+	abbr {
+		font-weight: 600;
+	}
+
+	div,
+	p {
+		margin: 0;
+		font-family: "DejaVu Serif", serif;
+		font-size: 15px;
+	}
+
+	dfn {
+		font-size: 14px;
+	}
+
+	/****** ENTÊTE ******/
+	div.entete {
+		font-family: sans-serif;
+		font-size: 14px;
+	}
+
+	/****** VARIANTES ******/
+	ul {
+		list-style: none;
+		> li {
+			font-family: "DejaVu Serif", serif;
+			margin: 1ex 0;
+		}
+		p {
+			margin-bottom: 4px;
+		}
+		p:before {
+			content: "• ";
+		}
+	}
+	ol {
+		counter-reset: item;
+		list-style: outside;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+	ol li,
+	div.suppvar {
+		display: block;
+		padding: 0;
+		margin: 2.5ex 0 0.8ex 0ex;
+	}
+	ol li p {
+		display: block;
+		padding: 0;
+		margin: 0;
+		text-indent: 4.3ex;
+	}
+	ol li:before {
+		content: counter(item);
+		counter-increment: item;
+	}
+	ol li:before,
+	ul > li > b.num,
+	div.suppvar b.num {
+		border: 1px solid black;
+		text-align: center;
+		background-color: rgb(70,70,150);
+		color: white;
+		font-weight: bold;
+		padding: 0 3px;
+		margin: 0 0.8ex 0 0;
+	}
+	ul > li:target > b.num {
+		background-color: rgb(150, 60, 60);
+	}
+	ul > li > b.num:target,
+	div.suppvar b.num:target {
+		background-color: #F07070;
+	}
+
+
+	/****** CITATIONS ******/
+	q {
+		quotes: '' '' "'" "'";
+		font-style: italic;
+	}
+	cite {
+		display: block;
+		margin: 0 5ex;
+		color: rgb(0,0,110);
+		span.src {
+			color: black;
+			font-style: normal;
+		}
+		.aut {
+			color: rgb(0,90,0);
+			text-decoration: none;
+			font-style: normal;
+			font-variant: small-caps;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		.ref {
+			color: #30a030;
+			padding: 0 2px 0 1px;
+		}
+	}
+	cite.def {
+		display: inline-block;
+		margin: 0;
+	}
+
+
+	/****** RUBRIQUES ******/
+	h3 {
+		margin-top: 1.6ex;
+		font-size: 20px;
+		line-height: 22px;
+	}
+	div.r {
+		margin: 0;
+		padding: 0 0 0 2ex;
+		border-left: 1px dashed red;
+		div.r h2 {
+			padding: 2ex 0 0 0;
+			margin: 0 0 0 -2ex;
+			background-color: white;
+		}
+		div.r p {
+			padding: 0;
+			margin: 1ex 0 0 0;
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	#liens-externes {
+		max-width: 33%;
+	}
+	ul.corps {
+		padding-left: 1ex;
+	}
+	.definition cite {
+		margin: 0 3ex;
+	}
+}

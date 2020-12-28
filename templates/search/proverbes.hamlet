@@ -1,0 +1,38 @@
+<h1>Recherche dans les proverbes du Littré
+
+<form method=get action="" .form-horizontal>
+    ^{widgetSearchProverbes}
+    <div .form-actions>
+        <button .btn type=submit value="">Rechercher dans les proverbes
+
+<ul>
+  <li>
+    La recherche se fait avec un #
+    <em>ET
+    implicite entre les termes.
+  <li>
+    Ni les accents ni la casse ne sont pris en compte.
+  <li>
+    On peut interdire la présence d'un mot en le préfixant par "-" ou "!".
+  <li>
+    Par défaut, toutes les formes fléchies sont utilisées, sauf si le mot est préfixé par "=".
+    Par exemple, "Jura massif" est équivalent à "jurés massifs", alors que "=jura =massif" est plus restrictif.
+
+<h2>Résultats de la recherche de proverbes
+$if null $ snd searchResults
+    <p>
+        Aucun proverbe du Littré ne correspond à cette recherche.
+$else
+    <p>
+        #{fst searchResults} correspondances, #{length $ snd searchResults} affichées
+                .
+    <ol .proverbes start="#{listStartAt}">
+       $forall result <- snd searchResults
+           <li>
+               <q .proverbe>
+                   #{proverbe result}
+               <div .explication>
+                   #{explication result}
+    <div .pagination>
+      ^{paginationW currentPage 20 (fst searchResults)}
+

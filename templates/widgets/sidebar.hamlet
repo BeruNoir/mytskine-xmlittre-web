@@ -1,0 +1,30 @@
+^{searchbox}
+^{neighbours}
+
+<div #annexes>
+  <strong title="Textes écrits par É. Littré, dans le dictionnaire ou séparément">
+    Annexes
+  <ul>
+    <li>
+      <a href=@{AnnexesR LivresR}>Livres cités
+    <li>
+      <a href=@{AnnexesR PrononciationR}>Prononciation
+    <li>
+      <a href=@{AnnexesR PrefaceR} title="Préface au dictionnaire">Préface
+    <li>
+      <a href=@{AnnexesR CauserieR} title="Comment j'ai fait mon dictionnaire">Causerie
+
+<div #site-web>
+  <strong>
+    Informations
+  <ul>
+    <li>
+      <a href=@{FaqR} title="Questions fréquentes et informations sur ce site web">FAQ
+    <li>
+      <a href=@{StatsR}>Statistiques
+    <li>
+      <a href=@{EtymologieR} title="Les étymologies du Littré remisent dans le contexte moderne">Étymologie
+    <li>
+      <a href=@{ProverbesR} title="Une sélection personnelle de proverbes du Littré">Proverbes
+    <li>
+      <a href="mailto:francois.gannaz@littre.org" title="francois.gannaz@littre.org">Contact

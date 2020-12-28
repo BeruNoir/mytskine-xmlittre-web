@@ -1,0 +1,190 @@
+$newline text
+<div #faq .content-text>
+  <h1>Le Littré en ligne - Foire aux questions
+
+  <h2>Comment récupérer le texte original du Littré&#x202f;?
+  <div .answer>
+    Le texte brut est disponible en téléchargement&#x202f;:
+    <a href="https://bitbucket.org/Mytskine/xmlittre-data/downloads/littre.txt.7z">
+      littre.txt.7z
+    \ (17 Mo, utiliser le logiciel libre
+    <a href="http://www.7-zip.org/">7zip
+    \ pour décompresser cette archive).
+    Il peut contenir des coquilles ou des infidélités au texte original.
+    Cette version est dans le domaine public, contrairement aux textes balisés (HTML, XML).
+    Voir les questions suivantes à ce propos.
+
+  <h2>Comment récupérer le texte structuré du Littré&#x202f;?
+  <div .answer>
+    J'ai passé des centaines, voire des milliers d'heures sur ce dictionnaire,
+    principalement pour structurer le texte brut en insérant des balises XML.
+    Le résultat (sous licence, cf question suivante) est dans un dépôt git&#x202f;:
+    <a href="https://bitbucket.org/Mytskine/xmlittre-data/overview">
+      https://bitbucket.org/Mytskine/xmlittre-data#
+    .
+    Ce dépôt continue à évoluer,
+    avec par exemple la détection de citations encore non balisées,
+    ou la correction de balisages automatiques précédents.
+
+  <h2 #licence>Puis-je faire ce que je veux du texte du Littré&#x202f;?
+  <div .answer>
+    Le texte du dictionnaire est dans le
+    <a href="http://fr.wikipedia.org/wiki/Domaine_public_(propriété_intellectuelle)">domaine public
+    \ (70 ans après la mort de tous les contributeurs au dictionnaire).
+    Par contre, l'introduction du balisage XML est une modification substantielle du texte.
+    Elle induit donc un droit d'auteur.
+    Le source XML, comme le HTML de ces pages, est placé sous licence
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">
+      Creative Commons Attribution - Partage dans les mêmes conditions 3.0 non transposé#
+    .
+    Chaque produit dérivé du XML du Littré (ou du HTML de ce site)
+    devra donc contenir une référence à ce site ou à moi-même,
+    « François Gannaz, &#x66;rancois&#x2E;gannaz&#x40;littre&#46;org ».
+
+  <h2 #source>Le code source du site web est-il disponible ?
+  <div .answer>
+    Ce site est sous licence libre
+    <a href="http://www.gnu.org/licenses/agpl-3.0.html">Affero GPL#
+    .
+    Le code source est dans un dépôt git&#x202f;:
+    <a href="https://bitbucket.org/Mytskine/xmlittre-web">https://bitbucket.org/Mytskine/xmlittre-web#
+    .
+    <ul>
+      <li>
+        le code est en #
+        <a href="http://www.haskell.org/">Haskell
+         ;
+      <li>
+        la structure est donnée par le "framework" web #
+        <a href="http://www.yesodweb.com/">Yesod
+         ;
+      <li>
+        la recherche en texte intégral utilise #
+        <a href="http://sphinxsearch.com/">Sphinx Search
+         ;
+      <li>
+        les données sont stockées dans une base #
+        <a href="http://www.sqlite.org">Sqlite
+        .
+
+    Les suggestions et les "pull requests" sont les bienvenues.
+
+  <h2 #referencer>
+    Comment citer ou référencer cette source&#x202f;?
+  <div .answer>
+    <p>
+      Dans cette édition en ligne, le Supplément a été partiellement fusionné
+      avec le texte des quatre volumes initiaux (le premier de 1873, les autres de 1874).
+      Si la définition ne contient pas de rubrique "Supplément au dictionnaire", alors
+      il suffit de référencer un seul ouvrage en quatre tomes.
+      Par exemple, en version anglaise&#x202f;:
+    <blockquote>
+      Littré, Émile. Dictionnaire de la langue française. Paris, L. Hachette, 1873-1874.
+      Electronic version created by François Gannaz. http://www.littre.org
+    <p>
+      Il faut éventuellement ajouter&#x202f;:
+    <blockquote>
+      Littré, Émile. Dictionnaire de la langue française, Supplément. Paris, L. Hachette, 1878.
+      Electronic version created by François Gannaz. http://www.littre.org
+
+  <h2 #original>
+    Le contenu de ce site est-il fidèle à l'édition originale&#x202f;?
+    <br>
+    Pourquoi mon édition papier du Littré contient-elle des mots absents ici&#x202f;?
+  <div .answer>
+    <p>
+      Certaines éditions (Nouveau Littré, etc) ont été remaniées, abrégées et complétées par des mots modernes.
+      Cette édition en ligne est très fidèle à la seconde édition (1873-1874, 1878),
+      publiée du vivant de l'auteur, et avec ses nombreux ajouts et corrections par rapport
+      à la publication de 1863-1872.
+
+    <div>
+      Voici les principales infidélités de cette version numérique.
+      <ul>
+        <li>
+          Les mots en caractères non-latins (c'est-à-dire hors ISO-8859-1) ont été perdus lors de la numérisation initiale.
+          Ils ont été saisis depuis, mais des omissions sont possibles.
+          Merci de me les signaler.
+          \ 
+          <a href=@{DefinitionR "zoïle"}>définitions
+          \ ont été complétées laborieusement.
+       <li>
+         Les ligatures, comme dans « œuf », furent translittérées lors de la saisie.
+         Elles ont été réintroduites semi-automatiquement, mais des oublis et des erreurs sont possibles.
+         Dans l'édition de référence, les vedettes avaient une ligature à peine visible
+         (comparer COEMPEREUR et CŒMPTION dans le 
+         <a href="http://gallica.bnf.fr/ark:/12148/bpt6k5406710m/f722">fac-simile
+         ), alors que le texte simple et les renvois l'utilisaient visiblement (par exemple, cœur et
+         <span .sc>CŒUR
+         ).
+         Supposant que cette différence était due à des fontes restreintes lors de l'impression,
+         j'ai utilisé des ligatures habituelles dans les vedettes.
+       <li>
+         Le travail de balisage a parfois introduit des changements de ponctuation ou d'espace.
+         Dans le pire des cas, des mots ont été déplacés, notamment pour que la prononciation
+         ne soit pas mélangée aux vedettes multiples d'une même entrée.
+       <li>
+         La mise en forme est différente de celle de l'édition imprimée,
+         et le balisage ne permet actuellement pas de reproduire la présentation initiale
+         — par exemple, le nom de l'œuvre était en italique, mais pas la référence au passage
+         « MOL.
+        <em>Bourg. gent.
+        \ II, 6. »
+       <li>
+         Le nom des auteurs dans les citations a été normalisé. Un auteur comme
+         <a href=@{AuteurR "BERNARDIN DE SAINT-PIERRE"}>Bernardin de Saint-Pierre
+         \ était par exemple cité sous dix-sept formes différentes, de
+         <em>BERN. DE S. P.
+         \ à
+         <em>BERNARD
+         \. Parfois l'identification de l'auteur n'a pu se faire qu'à partir des œuvres citées,
+         l'abréviation étant trop ambiguë.
+         Si le Littré en ligne affiche des noms uniformes, les noms originaux sont conservés dans le source XML.
+
+    <p>
+      Le contenu du Supplément est inséré à la fin des définitions concernées,
+      dans des rubriques intitulées « Supplément au dictionnaire ».
+      Il en va de même pour le chapitre « Additions et corrections » qui se trouve à la fin du tome Q-Z.
+
+    <p>
+      Il est toutefois exact qu'une partie du dictionnaire de M. Littré ne figure pas ici.
+      Dans le Supplément (Hachette, 1878), le chapitre Additions (pages 355 à 375) n'a pas été saisi.
+      On y trouve des compléments de définitions et de nouvelles entrées, comme « rengarier ».
+      Cette lacune sera corrigée un jour, mais la saisie est longue et fastidieuse.
+
+    <p>
+      En dehors des définitions, manquent aussi à l'appel les 16 pages du
+      <em>Complément de la préface ou coup d'œil sur l'histoire de la langue française
+      \ qui est placé dans le premier volume, entre la préface et le tableau des prononciations.
+      Dans le Supplément, le dictionnaire des mots orientaux de M. Devic n'a pas non plus été repris.
+
+  <h2 #historique>
+    Quel est le lien entre ce site et d'autres versions du Littré&#x202f;?
+    <br>
+    Quel est l'historique du projet&#x202f;?
+  <div .answer>
+    <p>
+      Au commencement était Émile Littré.
+      Il dit « Que le dictionnaire soit » et le dictionnaire fut.
+      Plus d'un siècle après sa création, ce dictionnaire fut numérisé par des petites mains indiennes,
+      afin d'être commercialisé sur CD-ROM par Redon, éditeur racheté ensuite par Hachette.
+
+    <p>
+      Heureux possesseur de cette galette, je ne pouvais cependant l'utiliser sur mon ordinateur Linux.
+      J'en ai donc extrait les données avec l'aide d'un collègue de bureau.
+      Ensuite, je me suis passionné pour la tâche (et pour Perl&#x202f;!), et j'ai cherché à structurer ce texte brut,
+      tout juste découpé au niveau des vedettes.
+      Pendant quelques mois, l'interrogation ne se fit que par la ligne de commande,
+      avant que je me décide à partager le fruit de ce travail.
+
+    <p>
+      En 2001, un site web expérimental, XMLittré, a vu le jour à l'adresse #
+      <samp>francois.gannaz.free.fr
+      .
+      Free a depuis supprimé ce site, mais les données avaient été reprises un peu partout sur Internet,
+      soit à partir du XML que je diffusais (par exemple, wiktionnaire), soit en aspirant subrepticement le HTML,
+      et même dans une adaptation que j'avais réalisée pour Reverso (version commerciale, abrégée à leur demande).
+
+    <p>
+      Ce nouveau site personnel est hébergé à mes frais sur un serveur loué à OVH.
+      Il ne contient aucune publicité, aucun suivi ni aucune exploitation commerciale des visites.

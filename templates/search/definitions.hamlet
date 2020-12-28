@@ -1,0 +1,39 @@
+<h1>Recherche en texte intégral dans le Littré
+
+<form method=get action="" .form-horizontal>
+    ^{widgetSearchDefinitions}
+    <div .form-actions>
+        <button .btn type=submit value="">Rechercher dans le corps des définitions
+
+<ul>
+  <li>
+    La recherche se fait avec un #
+    <em>ET
+    implicite entre les termes.
+  <li>
+    Ni les accents ni la casse ne sont pris en compte.
+  <li>
+    On peut interdire la présence d'un mot en le préfixant par "-" ou "!".
+  <li>
+    Par défaut, toutes les formes fléchies sont utilisées, sauf si le mot est préfixé par "=".
+    Par exemple, "Jura massif" est équivalent à "jurés massifs", alors que "=jura =massif" est plus restrictif.
+  <li>
+    Les mots de moins de trois caractères sont ignorés.
+
+<h2>Résultats de la recherche
+$if null $ snd searchResults
+    <p>
+        Aucun passage du Littré ne correspond à cette recherche.
+$else
+    <p>
+        #{fst searchResults} correspondances, #{length $ snd searchResults} affichées
+                .
+    <ol .matching-definitions start="#{listStartAt}">
+       $forall result <- snd searchResults
+           <li>
+               <a href=@{DefinitionR $ utitle result} .vedette>
+                   #{title result}
+               <div .excerpt>
+                   #{excerpt result}
+    <div .pagination>
+      ^{paginationW currentPage 20 (fst searchResults)}

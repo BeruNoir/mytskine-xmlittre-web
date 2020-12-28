@@ -1,0 +1,112 @@
+// extend String with: "xxx".contains("xx")
+if(!('contains' in String.prototype))
+  String.prototype.contains = function(str, startIndex) { return -1!==this.indexOf(str, startIndex); };
+
+function initSortOnTable(table) {
+	var lines;
+	var sortColumns = {}; // <pos>: type:
+	var sortKeys = {}; // <pos>: [keys]
+	var tbody = table.getElementsByTagName('tbody')[0];
+	var frStrCleanup = /^(?:Le |La |Les |L')/;
+
+	filterColumns(table.getElementsByTagName('thead')[0].firstChild.getElementsByTagName('th'));
+
+	function filterColumns(nodeList) {
+		for (var i=0; i < nodeList.length; i++) {
+			if (nodeList[i].className.contains('col-sortable')) {
+				var colType = nodeList[i].className.contains('sort-int') ? 'int' : 'string';
+				sortColumns[i] = colType;
+				sortKeys[i] = [];
+				nodeList[i].addEventListener(
+					"click",
+					getSortableEventHandler(nodeList[i], i, colType)
+				);
+			}
+		}
+	}
+
+	if (typeof lines == 'undefined') {
+		initSort(tbody.getElementsByTagName('tr'));
+	}
+
+	function initSort(rows) {
+		lines = [];
+		for (var i=0; i < rows.length; i++) {
+			lines.push(rows[i]);
+			for (colNum in sortColumns) {
+				var cellVal;
+				if (sortColumns[colNum] == 'int') {
+					cellVal = parseInt(rows[i].children[colNum].textContent, 10);
+					if (isNaN(cellVal)) {
+						cellVal = 0;
+					}
+				} else {
+					cellVal = rows[i].children[colNum].textContent.replace(frStrCleanup, '');
+				}
+				sortKeys[colNum].push(cellVal);
+			}
+		}
+	}
+
+	function getSortableEventHandler(colHeader, colNum, colType) {
+		var cmpFunc = ( colType == 'int' ?
+			function(a, b) {
+				return sortKeys[colNum][b] - sortKeys[colNum][a];
+			}
+			: function(a, b) {
+				return sortKeys[colNum][b].localeCompare(sortKeys[colNum][a]);
+			}
+		);
+		function markSiblingsInactive(th) {
+			var nodes = th.parentNode.getElementsByTagName('th');
+			for (var i=0; i < nodes.length; i++) {
+				nodes[i].className = nodes[i].className.replace(' active', '').replace(' sort-default', '');
+			}
+		}
+		return function sortAuthorWorks() {
+			var dirUp = colHeader.className.contains('sort-up');
+			tbody = table.getElementsByTagName('tbody')[0];
+			var sorted = range(0, lines.length-1);
+			sorted.sort(cmpFunc);
+			var newContent = document.createElement('tbody');
+			for (var i=0; i < sorted.length; i++) {
+				if (dirUp) {
+					newContent.appendChild(lines[sorted[i]]);
+				} else {
+					newContent.appendChild(lines[sorted[sorted.length-i-1]]);
+				}
+			}
+			// replace the tbody node
+			var parentNode = tbody.parentNode;
+			parentNode.removeChild(tbody);
+			parentNode.appendChild(newContent);
+			markSiblingsInactive(colHeader);
+			if (dirUp) {
+				colHeader.className = colHeader.className.replace('sort-up', 'sort-down active');
+			} else {
+				if (colHeader.className.contains('sort-down')) {
+					colHeader.className = colHeader.className.replace('sort-down', 'sort-up active');
+				} else {
+					colHeader.className = colHeader.className + ' sort-up active';
+				}
+			}
+		};
+	}
+
+	function range(from, to) {
+		var t = [];
+		for (var i=from; i <= to; i++) {
+			t.push(i);
+		}
+		return t;
+	}
+}
+
+initSortOnTable(document.getElementById('oeuvres'));
+
+(function() {
+	var stylesheet = document.createElement('style');
+	stylesheet.setAttribute('type', 'text/css');
+	stylesheet.innerHTML = 'th.col-sortable:not(.active):not(.sort-default):after {content: " ◊";}';
+	document.head.appendChild(stylesheet);
+})();
